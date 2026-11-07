@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Stud+ · Carte de parrainage (85 × 55 mm, recto-verso)</title>
+<!--
+  Carte au format carte de visite européen : 85 × 55 mm, recto-verso.
+  Zone de sécurité : 3,5 mm depuis le bord coupé.
+  Offre : la famille qui recommande reçoit 1 séance de 2 h offerte quand la
+  famille parrainée a fait sa 4e séance ; la famille parrainée reçoit la
+  1re heure offerte. Conditions sur demande.
+  Export PDF : node marketing/outils/exporter-pdf.js
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../brand/tokens.css">
+<link rel="stylesheet" href="commun.css">
+<style>
+@page { size: 85mm 55mm; margin: 0; }
+.page { width: 85mm; height: 55mm; }
+.safe { position: absolute; inset: 3.5mm 4mm; z-index: 1; }
+
+/* Recto */
+.recto { background: var(--blue); color: var(--white); }
+.recto::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px) 0 0 / 3.2mm 3.2mm,
+    linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px) 0 0 / 3.2mm 3.2mm;
+}
+.recto .top { display: flex; justify-content: space-between; align-items: center; }
+.recto .top img { height: 5.2mm; display: block; }
+.recto .tag { background: var(--yellow); color: var(--ink); font-size: 1.75mm; padding: .7mm 1.6mm; }
+.recto h1 { margin-top: 4.2mm; font-size: 6.6mm; line-height: .98; }
+.recto h1 span { color: var(--yellow); }
+.gifts { position: absolute; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; }
+.gift { background: var(--white); color: var(--ink); border-radius: 2.6mm; padding: 2.1mm 2.4mm 2.3mm; }
+.gift small { display: block; font-size: 1.7mm; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--blue-700); }
+.gift b { display: block; font-family: var(--font-display); font-size: 3.4mm; line-height: 1.05; letter-spacing: -.015em; margin-top: .8mm; }
+.gift.alt { background: var(--yellow); }
+.gift.alt small { color: var(--ink); }
+
+/* Verso */
+.verso { background: var(--white); }
+.verso .grid { display: grid; grid-template-columns: 1fr 17mm; gap: 3mm; height: 100%; }
+.verso h2 { font-size: 3.6mm; line-height: 1.05; }
+.reco { margin-top: 2.2mm; font-size: 1.95mm; font-weight: 600; color: var(--muted); }
+.reco .line { display: block; height: 4.2mm; border-bottom: .25mm solid var(--ink); margin-top: .2mm; }
+.how { list-style: none; margin: 2.4mm 0 0; padding: 0; display: grid; gap: 1mm; counter-reset: s; }
+.how li { counter-increment: s; display: grid; grid-template-columns: 3mm 1fr; gap: 1.3mm; font-size: 1.95mm; line-height: 1.32; }
+.how li::before {
+  content: counter(s); width: 3mm; height: 3mm; border-radius: 50%; background: var(--blue); color: var(--white);
+  font-family: var(--font-display); font-weight: 800; font-size: 1.7mm; display: grid; place-items: center;
+}
+.side { display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; text-align: center; }
+.side .qr { width: 17mm; height: 17mm; }
+.side .tel { font-family: var(--font-display); font-weight: 800; font-size: 2.15mm; letter-spacing: -.01em; color: var(--ink); white-space: nowrap; margin-top: 1.2mm; }
+.side .wa { font-size: 1.6mm; color: var(--muted); margin-top: .4mm; }
+.side img.logo { height: 3.4mm; display: block; margin: 0 auto; }
+.cond { font-size: 1.6mm; color: var(--muted); margin-top: 1.6mm; }
+</style>
+</head>
+<body>
+
+<section class="page recto" aria-label="Recto">
+  <span class="plus" style="--s:15mm; right:-2mm; top:12mm"></span>
+  <div class="safe">
+    <div class="top">
+      <img src="../../brand/logo-stud-plus-blanc.svg" alt="Stud+">
+      <span class="tag">Parrainage</span>
+    </div>
+    <h1>Recommandez Stud+,<br><span>tout le monde y gagne.</span></h1>
+    <div class="gifts">
+      <div class="gift"><small>Pour vous</small><b>1 séance de 2&nbsp;h offerte</b></div>
+      <div class="gift alt"><small>Pour la famille</small><b>La 1<sup>re</sup> heure offerte</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="page verso" aria-label="Verso">
+  <div class="safe">
+    <div class="grid">
+      <div>
+        <h2>Comment ça marche&nbsp;?</h2>
+        <p class="reco">Recommandé par&nbsp;:<span class="line"></span></p>
+        <ol class="how">
+          <li><span>Donnez cette carte à une famille.</span></li>
+          <li><span>Elle me contacte et sa 1<sup>re</sup> heure est offerte.</span></li>
+          <li><span>À sa 4<sup>e</sup> séance, votre séance de 2&nbsp;h est offerte.</span></li>
+        </ol>
+        <p class="cond">Conditions sur demande.</p>
+      </div>
+      <div class="side">
+        <img class="logo" src="../../brand/logo-stud-plus.svg" alt="Stud+">
+        <div>
+          <div class="qr"><img src="qr-parrainage.svg" alt="QR code vers WhatsApp"></div>
+          <p class="tel">07&nbsp;82&nbsp;92&nbsp;38&nbsp;89</p>
+          <p class="wa">Appel ou WhatsApp</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
