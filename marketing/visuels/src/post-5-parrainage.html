@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Post Instagram 5 · Parrainage (1080 × 1350)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../brand/tokens.css">
+<link rel="stylesheet" href="commun.css">
+<style>
+h1 { margin-top: 84px; font-size: 92px; line-height: 1; }
+h1 span { color: var(--blue); }
+.lead { margin-top: 26px; font-size: 32px; line-height: 1.4; color: var(--muted); max-width: 760px; }
+.gifts { margin-top: 70px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.gift { border-radius: var(--radius-lg); padding: 34px 34px 36px; position: relative; overflow: hidden; }
+.gift small { display: block; font-size: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
+.gift b { display: block; font-family: var(--font-display); font-size: 58px; line-height: 1; letter-spacing: -.03em; margin-top: 18px; }
+.gift p { font-size: 25px; line-height: 1.4; margin-top: 18px; text-wrap: balance; }
+.g1 { background: var(--blue); color: var(--white); box-shadow: var(--shadow-lift); }
+.g1 small { color: var(--yellow); }
+.g1 p { color: #DCE4FF; }
+.g2 { background: var(--yellow); color: var(--ink); }
+.g2 p { color: #3A3220; }
+.how { margin-top: 56px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; list-style: none; padding: 0; counter-reset: s; }
+.how li { counter-increment: s; background: var(--white); border: 1px solid var(--line); border-radius: 22px; padding: 22px 22px 24px; font-size: 24px; line-height: 1.35; color: var(--ink); }
+.how li::before { content: counter(s); display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--ink); color: var(--yellow); font-family: var(--font-display); font-weight: 800; font-size: 26px; margin-bottom: 14px; }
+.foot { color: var(--muted); }
+.foot .tel { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="canvas post bg-paper">
+  <span class="plus" style="--s:100px; right:90px; top:420px"></span>
+  <div class="inner">
+    <div class="head">
+      <img src="../../../brand/logo-stud-plus.svg" alt="Stud+">
+      <span class="pill pill-blue">Parrainage</span>
+    </div>
+
+    <h1>Recommandez Stud+,<br><span>tout le monde y gagne.</span></h1>
+    <p class="lead">Vous connaissez une famille qui cherche un prof de maths ou de physique-chimie&nbsp;?</p>
+
+    <div class="gifts">
+      <div class="gift g1">
+        <small>Pour vous</small>
+        <b>1 séance de 2&nbsp;h offerte</b>
+        <p>Quand la famille recommandée a fait sa 4<sup>e</sup>&nbsp;séance.</p>
+      </div>
+      <div class="gift g2">
+        <small>Pour la famille</small>
+        <b>La 1<sup>re</sup> heure offerte</b>
+        <p>Dès son premier cours, pour démarrer sans hésiter.</p>
+      </div>
+    </div>
+
+    <ol class="how">
+      <li>Parlez de Stud+ à une famille.</li>
+      <li>Elle me contacte de votre part.</li>
+      <li>Chacun reçoit son cadeau.</li>
+    </ol>
+
+    <div class="foot">
+      <span>Conditions sur demande.</span>
+      <span class="tel">07&nbsp;82&nbsp;92&nbsp;38&nbsp;89</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

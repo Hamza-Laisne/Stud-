@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Couverture Google Business (1200 × 675)</title>
+<!-- Google recadre parfois la couverture : l'essentiel reste dans la zone centrale. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../brand/tokens.css">
+<link rel="stylesheet" href="commun.css">
+<style>
+.canvas { --w: 1200px; --h: 675px; }
+.inner { inset: 64px 80px; display: grid; grid-template-columns: 1fr 380px; gap: 44px; align-items: center; }
+.left img { height: 52px; display: block; }
+h1 { margin-top: 40px; font-size: 66px; line-height: 1; }
+h1 span { color: var(--yellow); }
+.lead { margin-top: 22px; font-size: 24px; line-height: 1.4; color: #D5DAEA; }
+.tags { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px; }
+.tags span { font-size: 17px; font-weight: 600; padding: 9px 14px; border-radius: 99px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); }
+.tags span.y { background: var(--yellow); color: var(--ink); border-color: var(--yellow); font-weight: 700; }
+.mock { padding: 24px 26px; transform: rotate(2deg); box-shadow: 0 40px 80px -30px rgba(0,0,0,.7); }
+.mock-head { display: flex; justify-content: space-between; align-items: center; }
+.mock-head b { font-family: var(--font-display); font-size: 24px; letter-spacing: -.01em; }
+.mock .chip { font-size: 13px; }
+.meta { font-size: 15px; color: var(--muted); margin-top: 6px; }
+.row { display: grid; grid-template-columns: 104px 1fr; gap: 8px; font-size: 15.5px; line-height: 1.35; padding: 10px 0; border-top: 1px solid var(--line); }
+.row:first-of-type { margin-top: 14px; }
+.row dt { font-weight: 700; color: var(--muted); }
+.row dd { margin: 0; }
+.ok { color: var(--mint-700); font-weight: 700; }
+.skills { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.skill { font-size: 14px; font-weight: 600; padding: 5px 11px; border-radius: 99px; background: #E3F8F1; color: var(--mint-700); }
+.skill.todo { background: var(--paper); color: var(--muted); border: 1px dashed #C7CCDD; }
+</style>
+</head>
+<body>
+<div class="canvas bg-dark">
+  <span class="plus" style="--s:96px; right:70px; top:44px"></span>
+  <div class="inner">
+    <div class="left">
+      <img src="../../../brand/logo-stud-plus-fond-sombre.svg" alt="Stud+">
+      <h1>Les maths et la physique, enfin <span>sous contrôle.</span></h1>
+      <p class="lead">Cours particuliers à domicile, du collège au lycée, avec un suivi en ligne pour les parents.</p>
+      <div class="tags">
+        <span class="y">50&nbsp;€ la séance de 2&nbsp;h*</span>
+        <span>Paris &amp; Île-de-France</span>
+        <span>Brevet &amp; bac</span>
+      </div>
+    </div>
+    <article class="card mock" aria-label="Exemple de compte rendu">
+      <div class="mock-head"><b>Compte rendu</b><span class="chip chip-ex">Exemple</span></div>
+      <p class="meta">Inès · terminale · physique-chimie</p>
+      <dl style="margin:0">
+        <div class="row"><dt>Vu</dt><dd>Chute libre et lois de Newton</dd></div>
+        <div class="row"><dt>Point fort</dt><dd><span class="ok">Projection sur les axes</span></dd></div>
+        <div class="row"><dt>À retravailler</dt><dd>Intégrer pour trouver <i>v</i>(<i>t</i>)</dd></div>
+        <div class="row"><dt>Devoirs</dt><dd>Sujet type bac, pour lundi</dd></div>
+      </dl>
+      <div class="skills"><span class="skill">✓ 2<sup>e</sup> loi de Newton</span><span class="skill todo">Équations horaires</span></div>
+    </article>
+  </div>
+  <p style="position:absolute; left:80px; bottom:26px; z-index:1; margin:0; font-size:14px; color:var(--muted-dark)">* Après Avance Immédiate du crédit d’impôt (100&nbsp;€ avant).</p>
+</div>
+</body>
+</html>
