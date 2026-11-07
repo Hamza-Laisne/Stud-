@@ -12,7 +12,7 @@
 | Valeur d'une séance | individuel 100 € ; fratrie 140 € | Calcul |
 | Cotisations micro BNC + CFP | 25,6 % + 0,2 % = **25,8 % du CA encaissé** | URSSAF 2026 (taux 2027 inconnu) |
 | Semaines de cours (zone C) | voir tableau ci-dessous, environ 34 semaines « pleines » par an | Calendrier officiel + hypothèses sur les ponts |
-| Temps de trajet en Île-de-France | **45 min par séance à domicile** (aller entre deux familles et retour réparti) | Hypothèse (transports en commun, familles regroupées sur 2-3 secteurs) |
+| Temps de trajet en Île-de-France | **45 min par séance à domicile** (aller entre deux familles et retour réparti) | Hypothèse (transports en commun, familles regroupées sur 2 secteurs) |
 | Administration | 15 min par séance (compte rendu Notion, Carnet de cours) et 2 h par semaine (facturation, Avance immédiate, prospection) | Hypothèse |
 | Frais fixes en solo | 3 000 €/an (RC Pro, Notion, téléphone, site, Google, comptabilité légère, Navigo en partie) | Hypothèse, à remplacer par les vrais frais |
 | TVA | **pas de TVA dans les scénarios solo**, si l'exonération 261-4-4° b s'applique (cours donnés personnellement). Les dates de dépassement des seuils sont quand même indiquées, dans le cas où cette exonération serait refusée. | **À valider** (question n° 1 à l'expert-comptable) |
@@ -49,7 +49,7 @@
 - **Maximum théorique** : 4 × 2 + 3 + 3 = 14 séances, soit 28 h de cours, plus 10,5 h de trajet et 5,5 h d'administration = **44 h par semaine**. Ce rythme n'est pas tenable toute l'année.
 - **Maximum réaliste et durable** : **12 séances par semaine** (6 en soirée, 3 le mercredi, 3 le samedi), soit **24 h de cours + 9 h de trajet + 5 h d'administration ≈ 38 h par semaine**.
 - **En nombre d'élèves** : 12 séances = 12 élèves en individuel, ou **15 élèves avec 3 fratries** (une séance de fratrie compte pour 2 élèves). Avec 2 créneaux tardifs en **visio** (sans trajet), la capacité peut monter à **16-18 élèves** (voir scénario B).
-- **Contrainte n° 1 en Île-de-France : le trajet.** À 45 min par séance, il représente environ 25 % du temps de travail. Regrouper les familles dans 2 ou 3 secteurs (par exemple un arrondissement et la commune voisine) est la condition pour tenir 12 séances. À 1 h de trajet par séance, la capacité réaliste tombe à environ 10 séances.
+- **Contrainte n° 1 en Île-de-France : le trajet.** À 45 min par séance, il représente environ 25 % du temps de travail. Regrouper les familles dans 2 secteurs (un arrondissement et la commune de banlieue voisine, voir `acquisition-et-zone.md`) est la condition pour tenir 12 séances. À 1 h de trajet par séance, la capacité réaliste tombe à environ 10 séances.
 
 ## 3. Scénario A — Solo optimisé (scénario principal recommandé)
 

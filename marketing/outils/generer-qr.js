@@ -1,29 +1,35 @@
-// Régénère le QR code du flyer et de la carte de parrainage avec le VRAI lien.
+// Génère les QR codes WhatsApp (SVG) des supports Stud+.
+// Chaque QR ouvre WhatsApp vers le 07 82 92 38 89 avec un message prérempli.
 //
-// Utilisation (une seule fois : npm install qrcode, dans n'importe quel dossier de travail) :
-//   node marketing/outils/generer-qr.js "https://votre-site.fr"
-//
-// Le fichier marketing/assets/qr-lien-site.svg est remplacé. Ensuite, relancez
-// node marketing/outils/exporter-pdf.js pour régénérer les PDF.
+// Utilisation (une seule fois : npm install qrcode, dans un dossier de travail) :
+//   node marketing/outils/generer-qr.js
+// Puis : node marketing/outils/exporter-pdf.js et node marketing/outils/exporter-visuels.js
 
 const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
 
-const url = process.argv[2];
-if (!url || url.includes('[[')) {
-  console.error('Donnez le vrai lien en argument, par ex. : node generer-qr.js "https://stud-plus.fr"');
-  process.exit(1);
-}
+const base = 'https://wa.me/33782923889?text=';
+const qr = {
+  'qr-whatsapp': 'Bonjour Hamza, je souhaite des informations sur les cours Stud+.',
+  'qr-pack-noel': 'Bonjour Hamza, je souhaite réserver le Pack Noël Stud+.',
+  'qr-parrainage': 'Bonjour Hamza, une famille m’a recommandé Stud+ (parrainage).',
+};
+const dossiers = [
+  path.join(__dirname, '..', 'print'),
+  path.join(__dirname, '..', 'visuels', 'src'),
+];
 
-const out = path.join(__dirname, '..', 'assets', 'qr-lien-site.svg');
-QRCode.toString(url, {
-  type: 'svg',
-  errorCorrectionLevel: 'M',
-  margin: 1,
-  color: { dark: '#0f2a4a', light: '#ffffff' },
-}, (err, svg) => {
-  if (err) throw err;
-  fs.writeFileSync(out, svg);
-  console.log('QR code mis à jour :', out, '→', url);
-});
+for (const [nom, texte] of Object.entries(qr)) {
+  const url = base + encodeURIComponent(texte);
+  QRCode.toString(url, {
+    type: 'svg',
+    errorCorrectionLevel: 'M',
+    margin: 0,
+    color: { dark: '#0A0F1FFF', light: '#FFFFFF00' },
+  }, (err, svg) => {
+    if (err) throw err;
+    for (const d of dossiers) fs.writeFileSync(path.join(d, nom + '.svg'), svg);
+    console.log('QR code :', nom, '→', url);
+  });
+}

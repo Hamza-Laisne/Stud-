@@ -78,3 +78,4 @@ p { margin: 0; text-wrap: pretty; }
 }
 .qr { background: var(--white); border-radius: 12px; display: grid; place-items: center; }
 .qr img { display: block; width: 100%; height: 100%; }
+sup { line-height: 0; font-size: .62em; vertical-align: .55em; }

@@ -44,13 +44,14 @@
 /* Verso */
 .verso { background: var(--white); }
 .verso .grid { display: grid; grid-template-columns: 1fr 17mm; gap: 3mm; height: 100%; }
-.verso h2 { font-size: 3.6mm; line-height: 1.05; }
-.reco { margin-top: 2.2mm; font-size: 1.95mm; font-weight: 600; color: var(--muted); }
+.verso h2 { font-size: 4.2mm; line-height: 1.05; }
+.left { display: flex; flex-direction: column; justify-content: space-between; height: 100%; }
+.reco { margin-top: 2.6mm; font-size: 2.1mm; font-weight: 600; color: var(--muted); }
 .reco .line { display: block; height: 4.2mm; border-bottom: .25mm solid var(--ink); margin-top: .2mm; }
-.how { list-style: none; margin: 2.4mm 0 0; padding: 0; display: grid; gap: 1mm; counter-reset: s; }
-.how li { counter-increment: s; display: grid; grid-template-columns: 3mm 1fr; gap: 1.3mm; font-size: 1.95mm; line-height: 1.32; }
+.how { list-style: none; margin: 3mm 0 0; padding: 0; display: grid; gap: 1.5mm; counter-reset: s; }
+.how li { counter-increment: s; display: grid; grid-template-columns: 3.2mm 1fr; gap: 1.5mm; font-size: 2.2mm; line-height: 1.3; align-items: center; }
 .how li::before {
-  content: counter(s); width: 3mm; height: 3mm; border-radius: 50%; background: var(--blue); color: var(--white);
+  content: counter(s); width: 3.2mm; height: 3.2mm; border-radius: 50%; background: var(--blue); color: var(--white);
   font-family: var(--font-display); font-weight: 800; font-size: 1.7mm; display: grid; place-items: center;
 }
 .side { display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; text-align: center; }
@@ -58,13 +59,13 @@
 .side .tel { font-family: var(--font-display); font-weight: 800; font-size: 2.15mm; letter-spacing: -.01em; color: var(--ink); white-space: nowrap; margin-top: 1.2mm; }
 .side .wa { font-size: 1.6mm; color: var(--muted); margin-top: .4mm; }
 .side img.logo { height: 3.4mm; display: block; margin: 0 auto; }
-.cond { font-size: 1.6mm; color: var(--muted); margin-top: 1.6mm; }
+.cond { font-size: 1.75mm; color: var(--muted); }
 </style>
 </head>
 <body>
 
 <section class="page recto" aria-label="Recto">
-  <span class="plus" style="--s:15mm; right:-2mm; top:12mm"></span>
+  <span class="plus" style="--s:8mm; right:4.5mm; top:25.5mm"></span>
   <div class="safe">
     <div class="top">
       <img src="../../brand/logo-stud-plus-blanc.svg" alt="Stud+">
@@ -73,7 +74,7 @@
     <h1>Recommandez Stud+,<br><span>tout le monde y gagne.</span></h1>
     <div class="gifts">
       <div class="gift"><small>Pour vous</small><b>1 séance de 2&nbsp;h offerte</b></div>
-      <div class="gift alt"><small>Pour la famille</small><b>La 1<sup>re</sup> heure offerte</b></div>
+      <div class="gift alt"><small>Pour la famille</small><b>La 1<sup>re</sup> heure<br>offerte</b></div>
     </div>
   </div>
 </section>
@@ -81,14 +82,14 @@
 <section class="page verso" aria-label="Verso">
   <div class="safe">
     <div class="grid">
-      <div>
+      <div class="left"><div>
         <h2>Comment ça marche&nbsp;?</h2>
         <p class="reco">Recommandé par&nbsp;:<span class="line"></span></p>
         <ol class="how">
           <li><span>Donnez cette carte à une famille.</span></li>
           <li><span>Elle me contacte et sa 1<sup>re</sup> heure est offerte.</span></li>
           <li><span>À sa 4<sup>e</sup> séance, votre séance de 2&nbsp;h est offerte.</span></li>
-        </ol>
+        </ol></div>
         <p class="cond">Conditions sur demande.</p>
       </div>
       <div class="side">

@@ -1,273 +1,305 @@
-# Réseaux sociaux – calendrier éditorial 4 semaines
+# Réseaux sociaux – Instagram et Facebook
 
-> Période : du lundi 9 novembre au dimanche 6 décembre 2026 (puis continuer jusqu'au stage de Noël avec le même rythme).
-> Rythme : **3 publications par semaine** sur Instagram et Facebook (même contenu adapté), + **1 participation utile par semaine** dans les groupes Facebook de parents.
-> Temps estimé : 1 h 30 par semaine (préparer les 3 visuels d'un coup le dimanche sur Canva, programmer avec Meta Business Suite, gratuit).
+> **Le rôle réel des réseaux pour Stud+.** Un parent ne choisit pas un prof sur Instagram : il le découvre par une recommandation, une fiche Google ou un groupe de parents, **puis il vérifie**. Les réseaux servent à ce moment-là : montrer un prof sérieux, actif, et un suivi que les autres n'ont pas. Les vraies demandes viendront surtout des **groupes Facebook de parents** (§ 5).
 >
-> Positionnement à faire ressentir dans chaque post : **le spécialiste des sciences (maths et physique-chimie) au collège et au lycée à Paris et en région parisienne, avec un suivi transparent pour les parents.**
+> **Budget temps : 1 h par semaine, pas plus.** Mieux vaut 2 posts nets chaque semaine que 5 posts la première semaine puis plus rien.
 >
-> Cible : sur Instagram, les **parents** (35-50 ans) et les lycéens ; sur Facebook et dans les groupes, surtout les **parents**.
+> **Objectifs d'ici le 20 décembre 2026** : 12 posts publiés · 6 groupes de parents rejoints, 4 publications acceptées · 3 demandes venues des réseaux ou des groupes.
 
 ---
 
-## 1. Mise en place (semaine du 9 novembre)
+## 1. La mise en place (une seule fois, 45 min, semaine du 9 novembre)
 
-- **Instagram** : compte professionnel « Stud+ | Maths & Physique-chimie | Paris ». Bio :
-  > Cours particuliers maths & physique-chimie · collège & lycée
-  > Paris et région parisienne · séances de 2 h
-  > Suivi en ligne pour les parents après chaque séance
-  > 50 € la séance de 2 h après Avance Immédiate
-  > WhatsApp : 07 82 92 38 89
-  Lien en bio : [[LIEN_SITE]] (ou https://wa.me/33782923889 tant que le site n'est pas prêt).
-- **Facebook** : page « Stud+ – Cours de maths et physique-chimie », catégorie « Service de soutien scolaire », même texte, bouton « Envoyer un message WhatsApp » relié au 07 82 92 38 89.
-- **Story à la une** (Instagram) : « Tarifs », « Suivi en ligne », « Stage Noël », « Avis ».
-- **Charte visuelle** : reprendre les couleurs du flyer (bleu nuit #0f2a4a, bleu #1f6fd1, jaune #ffc928, rouge #e03a3a), police Inter, logo en haut à gauche.
-- **Confidentialité** : ne jamais montrer le visage, le nom de famille, l'établissement ou les notes réelles d'un élève sans autorisation écrite des parents. Pour l'espace de suivi, utiliser un **élève démo** fictif.
+**Instagram** : compte professionnel `@studplus.paris` (ou la variante libre la plus proche), catégorie « Éducation ».
 
-## 2. Hashtags
+**Bio (à copier, 141 caractères)**
+> Maths & physique-chimie à domicile 📐⚗️
+> Collège → terminale · Paris & proche banlieue
+> 50 € la séance de 2 h après Avance Immédiate
 
-À mélanger : 3 ou 4 génériques + 3 ou 4 locaux + 2 ou 3 thématiques. Maximum 8 à 12 hashtags sur Instagram, 2 ou 3 sur Facebook.
+**Lien de la bio** : `https://wa.me/33782923889` tant que le site n'est pas en ligne, puis `https://hamza-laisne.github.io/Stud-/site/`.
+**Bouton de contact** : « Appeler » ou « WhatsApp » → 07 82 92 38 89.
+**Stories à la une** (créez-les avec les visuels) : « Le suivi », « 50 % URSSAF », « Pack Noël », « Parrainage », « Conseils ».
 
-**Locaux (Paris et région parisienne)**
-`#Paris` `#IledeFrance` `#soutienscolaireparis` `#coursparticuliersparis` `#profdemathsparis` `#parentsparis` `#parisienne` `#banlieueparisienne`
-Par arrondissement ou commune desservie (à choisir selon la zone d'Hamza) : `#paris15` `#paris14` `#paris11` `#paris20` `#boulognebillancourt` `#issylesmoulineaux` `#montreuil` `#vincennes` `#saintmande` `#levalloisperret` `#neuillysurseine` `#hautsdeseine` `#valdemarne` `#seinesaintdenis`
-
-**Génériques**
-`#soutienscolaire` `#coursparticuliers` `#profparticulier` `#aideauxdevoirs` `#college` `#lycee`
-
-**Thématiques sciences et examens**
-`#maths` `#mathematiques` `#physiquechimie` `#brevet2027` `#bac2027` `#specialitemaths` `#specialitephysique` `#grandoral` `#bacblanc` `#brevetblanc` `#methodedetravail`
-
-## 3. Calendrier et posts rédigés
-
-| Semaine | Lundi | Mercredi | Vendredi | Groupes Facebook |
-|---|---|---|---|---|
-| S1 (9-15 nov.) | Post 1 – Présentation | Post 2 – Espace de suivi | Post 3 – Astuce maths | Rejoindre 6 à 10 groupes, observer, 1 réponse utile |
-| S2 (16-22 nov.) | Post 4 – Avance Immédiate | Post 5 – Astuce physique-chimie | Post 6 – Annonce du stage de Noël | 1 réponse utile + 1 publication si le règlement l'autorise |
-| S3 (23-29 nov.) | Post 7 – Pourquoi 2 h | Post 8 – Brevet blanc | Post 9 – Parrainage | 1 réponse utile |
-| S4 (30 nov.-6 déc.) | Post 10 – Bac blanc / spécialités | Post 11 – Coulisses d'une séance | Post 12 – Dernières places stage | 1 publication stage (si autorisé) |
-
-En stories (Instagram et Facebook), 2 ou 3 fois par semaine sans effort : repartager le post du jour, un sondage (« Votre enfant révise-t-il le week-end ? Oui / Non »), une question en boîte à questions (« Posez votre question de maths »).
+**Facebook** : page « Stud+ – Maths et physique-chimie à domicile », catégorie « Soutien scolaire » (ou la plus proche proposée), même photo de profil, même bouton WhatsApp. Reliez-la au compte Instagram dans **Meta Business Suite** : vous publiez une fois, pour les deux réseaux. Votre **profil personnel** reste nécessaire pour entrer dans les groupes de parents (beaucoup refusent les pages).
 
 ---
 
-### Post 1 – Présentation (lundi 9 novembre)
+## 2. La routine d'1 h par semaine
 
-**Visuel** : carrousel de 4 images. 1) Photo d'Hamza souriant devant un tableau ou un bureau, texte « Bonjour, moi c'est Hamza ». 2) « Maths & physique-chimie, de la 6e à la terminale ». 3) « Séances de 2 h à domicile, Paris et région parisienne ». 4) « 50 € la séance après Avance Immédiate · WhatsApp 07 82 92 38 89 ».
+| Quand | Durée | Tâche |
+|---|---|---|
+| Dimanche soir | 30 min | Programmer les 2 posts de la semaine dans Meta Business Suite (mardi 19 h 30 et vendredi 18 h, les heures où les parents font défiler). Préparer 3 stories. |
+| Pendant la semaine | 3 × 5 min | Publier 1 story le lundi, le mercredi et le samedi (idées au § 4). |
+| Mercredi | 15 min | Répondre aux commentaires et messages, publier ou commenter dans 1 groupe de parents (§ 5). |
 
-**Texte**
-> Bonjour ! Moi c'est Hamza, et Stud+ c'est mon activité de cours particuliers en maths et en physique-chimie, pour les collégiens et les lycéens, à Paris et en région parisienne.
->
-> Ma conviction : un cours particulier ne sert à rien si les parents ne savent pas ce qui s'y passe. Alors chaque élève a son espace de suivi en ligne, partagé avec sa famille : les devoirs, un compte rendu après chaque séance, les compétences acquises cochées une à une, les objectifs du trimestre et l'évolution des notes.
->
-> Séances de 2 h, 100 €, soit 50 € payés grâce à l'Avance Immédiate de l'URSSAF.
-> Une question ? Écrivez-moi sur WhatsApp : 07 82 92 38 89.
->
-> #soutienscolaireparis #coursparticuliersparis #profdemathsparis #physiquechimie #maths #college #lycee #Paris #IledeFrance
-
-### Post 2 – L'espace de suivi (mercredi 11 novembre)
-
-**Visuel** : capture d'écran de l'espace de suivi d'un **élève démo** (compte rendu, compétences cochées, courbe de notes), avec des flèches annotées : « le compte rendu », « les compétences », « les notes ». Ou vidéo écran de 15 secondes (Reel) qui fait défiler l'espace.
-
-**Texte**
-> « Alors, ce cours, ça s'est bien passé ? »
-> « Oui. »
->
-> Si cette conversation vous est familière, voici ce que reçoivent les parents des élèves Stud+ après chaque séance (élève fictif pour l'exemple) :
-> - Ce qui a été travaillé et comment ça s'est passé
-> - Les devoirs pour la prochaine fois
-> - Les compétences acquises, cochées une à une
-> - Les objectifs du trimestre
-> - L'évolution des notes
->
-> Vous voyez les progrès, votre enfant voit le chemin parcouru.
->
-> #soutienscolaire #parentsparis #coursparticuliersparis #suiviscolaire #maths #physiquechimie #Paris
-
-### Post 3 – Astuce maths (vendredi 13 novembre)
-
-**Visuel** : fiche méthode sur fond jaune, titre « 3 réflexes pour ne plus perdre de points en calcul », 3 lignes numérotées, logo Stud+.
-
-**Texte**
-> 3 réflexes pour ne plus perdre de points bêtement en maths (collège et lycée) :
-> 1. Écrire chaque étape sur une nouvelle ligne : on se relit plus facilement.
-> 2. Vérifier l'ordre de grandeur du résultat : un prix de 4 000 € pour un croissant, c'est suspect.
-> 3. Encadrer le résultat avec son unité.
->
-> Enregistrez ce post pour le prochain contrôle !
->
-> #maths #mathematiques #methodedetravail #college #lycee #brevet2027 #soutienscolaireparis
-
-### Post 4 – Avance Immédiate (lundi 16 novembre)
-
-**Visuel** : grand visuel « 100 € → 50 € » barré, sous-titre « la séance de 2 h, avec l'Avance Immédiate URSSAF ».
-
-**Texte**
-> Les cours particuliers coûtent moitié moins cher que vous ne le pensez.
->
-> Grâce à l'Avance Immédiate de l'URSSAF, le crédit d'impôt de 50 % pour les services à la personne est déduit **tout de suite** :
-> - une séance de 2 h : 100 €, vous payez 50 € ;
-> - pour deux enfants de la même famille : 140 €, vous payez 70 €.
->
-> Pas d'avance de frais, pas d'attente jusqu'à la déclaration d'impôts. Une facture par mois. L'inscription se fait une seule fois, je vous guide.
->
-> Questions ? WhatsApp 07 82 92 38 89.
->
-> #avanceimmediate #creditdimpot #soutienscolaire #coursparticuliersparis #parentsparis #IledeFrance
-
-### Post 5 – Astuce physique-chimie (mercredi 18 novembre)
-
-**Visuel** : fiche sur fond bleu « Les unités, c'est la moitié de la réponse », avec un exemple de conversion (km/h → m/s : diviser par 3,6).
-
-**Texte**
-> En physique-chimie, un résultat sans unité, c'est souvent des points perdus.
->
-> L'astuce du jour : pour passer des km/h aux m/s, on divise par 3,6. Pourquoi ? 1 km = 1 000 m et 1 h = 3 600 s, donc 1 km/h = 1 000 / 3 600 m/s = 1 / 3,6 m/s.
->
-> Comprendre d'où vient la règle, c'est ne plus jamais l'oublier. C'est comme ça qu'on travaille en séance.
->
-> #physiquechimie #specialitephysique #lycee #college #methodedetravail #brevet2027 #bac2027 #Paris
-
-### Post 6 – Annonce du stage de Noël (vendredi 20 novembre)
-
-**Visuel** : affiche `stage-noel-2026.pdf` exportée en image carrée (ou version 1080 x 1350 px recadrée sur le titre et les deux formules).
-
-**Texte**
-> Brevet blanc et bac blanc arrivent dès la rentrée de janvier.
->
-> Stage de révision maths et physique-chimie pendant les vacances de Noël (du 19 décembre au 4 janvier) :
-> - diagnostic des points fragiles,
-> - mise à niveau ciblée,
-> - une épreuve blanche en temps limité corrigée en détail,
-> - un bilan et un plan pour janvier dans l'espace de suivi.
->
-> En petit groupe de 3 à 4 élèves du même niveau ([[PRIX_STAGE]]) ou en individuel (50 € la séance de 2 h après Avance Immédiate).
-> Dates : [[DATES_STAGE]]. Places limitées, réservations avant le 14 décembre : WhatsApp 07 82 92 38 89.
->
-> #stagederevision #brevetblanc #bacblanc #vacancesdenoel #soutienscolaireparis #maths #physiquechimie #Paris #IledeFrance
-
-### Post 7 – Pourquoi des séances de 2 h (lundi 23 novembre)
-
-**Visuel** : schéma simple d'une séance en 3 blocs : « 30 min : reprendre le cours » / « 60 min : s'entraîner » / « 30 min : corriger les devoirs et faire le compte rendu ». (Durées indicatives, à adapter à la façon réelle de travailler d'Hamza.)
-
-**Texte**
-> Pourquoi mes séances durent 2 h et pas 1 h ?
->
-> Parce qu'en 1 h, on a à peine le temps de reprendre le cours qu'il faut déjà partir. En 2 h, on reprend la notion, on s'entraîne vraiment, on corrige les devoirs, et on termine par le compte rendu dans l'espace de suivi.
->
-> Moins de séances, mais des séances où on avance pour de bon.
->
-> #soutienscolaire #coursparticuliers #methodedetravail #maths #physiquechimie #parentsparis
-
-### Post 8 – Brevet blanc (mercredi 25 novembre)
-
-**Visuel** : checklist « Brevet blanc : prêt ou pas ? » avec 5 cases à cocher (théorème de Pythagore, fonctions, statistiques, calcul littéral, conversions d'unités).
-
-**Texte**
-> 3e : votre enfant est-il prêt pour le brevet blanc ? Petit test en 5 cases.
-> ☐ Pythagore et Thalès
-> ☐ Les fonctions (lire un graphique, calculer une image)
-> ☐ Les statistiques (moyenne, médiane)
-> ☐ Le calcul littéral
-> ☐ Les conversions d'unités en sciences
->
-> Une case non cochée ? C'est exactement ce qu'on reprend pendant le stage de Noël. Et dans l'espace de suivi, chaque compétence se coche une fois acquise.
->
-> #brevet2027 #brevetblanc #3eme #maths #physiquechimie #college #soutienscolaireparis
-
-### Post 9 – Parrainage (vendredi 27 novembre)
-
-**Visuel** : recto de la carte de parrainage (« 1 h de cours offerte pour vous et votre filleul »).
-
-**Texte**
-> Votre enfant est suivi par Stud+ et vous êtes satisfait ? Parlez-en autour de vous !
->
-> Quand une famille commence les cours de votre part, après son premier mois **vous recevez chacun 1 h de cours offerte**. Il suffit qu'elle donne votre nom à son premier message.
->
-> Conditions sur simple demande. Merci à toutes les familles qui font grandir Stud+ !
->
-> #parrainage #soutienscolaire #parentsparis #coursparticuliersparis #Paris
-
-### Post 10 – Bac blanc et spécialités (lundi 30 novembre)
-
-**Visuel** : carrousel « Spécialité maths / spécialité physique-chimie : les 3 chapitres à revoir avant le bac blanc » (à remplir selon le programme de chaque niveau), une slide par matière + une slide finale d'appel à l'action.
-
-**Texte**
-> Première ou terminale, spécialité maths ou physique-chimie : le bac blanc approche.
->
-> En séance, on fait toujours la même chose avant une épreuve blanche :
-> 1. Lister les chapitres au programme de l'épreuve.
-> 2. Repérer dans l'espace de suivi les compétences pas encore cochées.
-> 3. Faire un sujet en temps limité et le corriger ensemble.
->
-> Il reste quelques places pour le stage de Noël. Et pour les terminales, on peut déjà commencer à préparer le Grand oral.
->
-> #bac2027 #bacblanc #specialitemaths #specialitephysique #grandoral #terminale #premiere #soutienscolaireparis
-
-### Post 11 – Coulisses d'une séance (mercredi 2 décembre)
-
-**Visuel** : Reel de 20-30 secondes, sans visage d'élève : les mains d'Hamza qui écrivent au tableau ou sur une feuille, puis l'écran de l'espace de suivi où il coche une compétence (élève démo). Musique libre de droits.
-
-**Texte**
-> Fin de séance = compte rendu. Ce que j'écris pour les parents après chaque cours : ce qu'on a fait, ce qui est acquis, ce qu'il reste à travailler, les devoirs. Et quand une compétence est maîtrisée, elle est cochée. C'est le moment préféré des élèves.
->
-> #coulisses #soutienscolaire #suiviscolaire #maths #physiquechimie #Paris #IledeFrance
-
-### Post 12 – Dernières places pour le stage (vendredi 4 décembre)
-
-**Visuel** : affiche du stage avec un bandeau rouge « Dernières places ». **N'utiliser ce bandeau que si c'est vrai** ; sinon, titre « Inscriptions jusqu'au 14 décembre ».
-
-**Texte**
-> Stage de Noël maths et physique-chimie : les inscriptions ferment le 14 décembre.
-> Petits groupes de 4 élèves maximum (3e, première, terminale) ou cours individuels.
-> Dates : [[DATES_STAGE]].
-> Pour réserver : WhatsApp 07 82 92 38 89.
->
-> #stagederevision #vacancesdenoel #brevetblanc #bacblanc #soutienscolaireparis #Paris #IledeFrance
+**Ce que vous ne faites pas** : courir après les abonnés, suivre des comptes en masse, publier des tendances sans rapport avec les maths. **Jamais** de visage, de prénom, de copie ni de note d'un élève, même flouté, sans l'accord écrit des parents.
 
 ---
 
-## 4. Groupes Facebook de parents : où et comment
+## 3. Les 12 posts rédigés (du 10 novembre au 18 décembre 2026)
 
-### Trouver les bons groupes
-Dans la barre de recherche Facebook, onglet « Groupes », chercher :
-- « parents Paris 15 », « parents d'élèves Paris 11 », « mamans Paris 20 »… (un arrondissement à la fois, uniquement ceux de la zone desservie) ;
-- « parents Boulogne-Billancourt », « Montreuil entraide », « Vincennes Saint-Mandé parents », « Issy-les-Moulineaux bons plans »… (communes de banlieue proches) ;
-- « parents collège [nom du collège] », « parents lycée [nom du lycée] » (groupes informels de classe ou d'établissement) ;
-- « bons plans [arrondissement] », « entraide [commune] » : groupes de quartier généraux, souvent plus tolérants pour les services locaux.
+Les visuels sont créés à part (présentation, suivi en ligne, Avance Immédiate expliquée, Pack Noël, parrainage, « 3 erreurs classiques en physique-chimie au lycée »). Chaque post indique lequel utiliser. Les posts 7, 8 et 10 réutilisent un visuel existant, avec le titre du post changé sur Canva.
 
-Rejoindre **6 à 10 groupes actifs** (plusieurs publications par jour) avec le **profil personnel** d'Hamza (les pages ne peuvent pas rejoindre tous les groupes). Mettre à jour le profil personnel : photo, « Professeur de maths et physique-chimie chez Stud+ ».
+Hashtags : 8 à 12 par post, à la fin, avec **au moins 3 tags de lieu**. Remplacez `#Paris15`, `#Boulogne`, etc. par vos vrais secteurs.
 
-### Règles pour ne pas être considéré comme du spam
-1. **Lire le règlement de chaque groupe** avant toute publication. Beaucoup interdisent la publicité, ou ne l'autorisent qu'un jour précis (« mardi pub ») ou dans une publication dédiée. Respecter ces règles à la lettre.
-2. **La règle 80/20** : 80 % d'aide, 20 % de promotion. Les 2 premières semaines dans un groupe, **ne rien vendre** : répondre aux questions de parents (« mon fils ne comprend rien aux fractions », « quelle spécialité choisir en première ? »).
-3. **Répondre à une demande plutôt que publier une annonce.** Quand un parent écrit « Je cherche un prof de maths pour ma fille en 4e », répondre en commentaire de façon courte et humaine, puis proposer de continuer en message privé.
-4. **Jamais de copier-coller identique** dans plusieurs groupes le même jour : Facebook le détecte comme du spam. Adapter le texte au quartier et espacer les publications.
-5. **Maximum 1 publication promotionnelle par groupe et par mois**, et seulement si le règlement l'autorise. Pour le stage de Noël, demander d'abord l'accord de l'administrateur en message privé.
-6. **Pas de message privé non sollicité** à des parents qui n'ont rien demandé.
-7. **Pas de lien seul.** Toujours un texte utile, le lien ou le numéro à la fin.
-8. **Ne jamais parler d'un élève** (même sans le nommer) dans un groupe local : quelqu'un pourrait le reconnaître.
-9. Si un administrateur supprime un post ou fait une remarque : s'excuser, remercier, ne pas republier.
+---
 
-### Modèles pour les groupes
+### Post 1 – mardi 10 novembre · Présentation
+**Visuel** : présentation
 
-**Réponse à un parent qui cherche un prof**
-> Bonjour [Prénom], je suis prof de maths et de physique-chimie (collège et lycée) et j'interviens à [arrondissement / commune]. Je travaille par séances de 2 h, avec un compte rendu pour les parents après chaque séance. Je vous envoie un message privé avec les détails si vous voulez !
+**Accroche** : Un prof de maths et de physique-chimie qui vient chez vous. Et qui vous dit ce qu'il a fait. 📐⚗️
 
-**Réponse utile sans promotion**
-> Pour les fractions, ce qui marche bien : partir de vraies situations (une pizza en 8 parts, une recette pour 6 au lieu de 4). Quand la manipulation est comprise, les règles de calcul deviennent logiques. Bon courage à votre fils !
+**Texte**
+Moi, c'est Hamza, et Stud+, c'est mon activité de cours particuliers à domicile, du collège au lycée, à Paris et en proche banlieue.
+Le format : 2 h par séance. Assez pour reprendre le cours, corriger chaque erreur et finir sur un exercice réussi sans aide.
+Le petit plus que les parents adorent : après chaque séance, un compte rendu en ligne avec les devoirs, les compétences travaillées et les objectifs.
 
-**Publication autorisée (jour de pub ou avec accord de l'admin)**
-> Bonjour à tous ! Je m'appelle Hamza, prof de maths et de physique-chimie à domicile à [arrondissement / commune] et alentours, du collège au lycée.
-> Pendant les vacances de Noël, j'organise un **stage de révision avant les brevets blancs et bacs blancs de janvier**, en petit groupe (4 élèves maximum) ou en individuel. Dates : [[DATES_STAGE]].
-> Pour les cours à l'année : séances de 2 h, 50 € la séance après Avance Immédiate, et un espace de suivi en ligne pour les parents.
-> Merci aux admins d'accepter ce message. Questions en commentaire ou au 07 82 92 38 89.
+**CTA** : Une question sur la classe de votre enfant ? Écrivez-moi sur WhatsApp, lien dans la bio.
 
-## 5. Mesurer (5 minutes par semaine)
+`#coursparticuliers #soutienscolaire #profdemaths #physiquechimie #college #lycee #Paris #Paris15 #Paris14 #Boulogne #IssyLesMoulineaux #parentsparisiens`
 
-Noter chaque dimanche dans le tableau de suivi du README :
-- nombre d'abonnés Instagram et Facebook ;
-- nombre de messages reçus via Instagram, Facebook et les groupes ;
-- **nombre de demandes de cours venues des réseaux** (c'est le seul chiffre qui compte vraiment).
+---
 
-Toujours demander aux nouvelles familles : « Comment avez-vous connu Stud+ ? »
+### Post 2 – vendredi 13 novembre · L'espace de suivi
+**Visuel** : suivi en ligne
+
+**Accroche** : « Alors, ce cours ? » « Bien. » 🙃
+
+**Texte**
+Si cette conversation vous dit quelque chose, voici la solution.
+Chaque élève Stud+ a son espace de suivi en ligne, partagé avec ses parents :
+📝 les devoirs à faire avant la prochaine séance
+📋 le compte rendu de chaque séance
+✅ les compétences cochées une à une
+🎯 les objectifs du trimestre
+📈 les notes, pour voir la courbe bouger
+Vous savez où en est votre enfant sans lui faire passer d'interrogatoire au dîner.
+
+**CTA** : Vous voulez voir un exemple ? Écrivez « SUIVI » en message, je vous envoie un espace de démonstration.
+
+`#suiviscolaire #coursparticuliers #parents #profdemaths #physiquechimie #edtech #Paris #Paris16 #Paris7 #Vincennes #Montreuil #parentsparisiens`
+
+---
+
+### Post 3 – mardi 17 novembre · L'Avance Immédiate expliquée (carrousel)
+**Visuel** : Avance Immédiate expliquée
+
+**Accroche** : 100 € la séance. 50 € sur votre compte. Voici comment. 💶
+
+**Texte**
+Stud+ est déclaré service à la personne. Résultat : le crédit d'impôt de 50 % n'attend pas votre déclaration d'impôts, il est déduit tout de suite.
+1️⃣ Fin du mois : je vous envoie la facture des séances.
+2️⃣ L'URSSAF vous envoie un e-mail.
+3️⃣ Vous avez 48 h pour valider (sinon, c'est validé automatiquement).
+4️⃣ Vous payez 50 %. L'État paie le reste.
+Une séance de 2 h à domicile vous revient donc à 50 €, soit 25 € de l'heure.
+
+**CTA** : Enregistrez ce post pour le jour où vous comparerez les tarifs 📌
+
+`#avanceimmediate #creditdimpot #urssaf #coursparticuliers #soutienscolaire #servicesalapersonne #Paris #IledeFrance #Paris15 #Boulogne #parentsparisiens`
+
+---
+
+### Post 4 – vendredi 20 novembre · 3 erreurs classiques en physique-chimie au lycée (carrousel)
+**Visuel** : 3 erreurs classiques en physique-chimie au lycée
+
+**Accroche** : 3 erreurs qui coûtent des points en physique-chimie. Vous faites la n° 2, c'est sûr. 👀
+
+**Texte**
+❌ 1. Le résultat sans unité, ou dans la mauvaise. Un volume en mL dans une formule qui attend des L, et c'est un facteur 1 000 d'erreur. Le réflexe : tout convertir en unités du Système international avant de calculer.
+❌ 2. Recopier les 8 chiffres de la calculatrice. Si l'énoncé donne des valeurs à 3 chiffres significatifs, le résultat en a 3. Écrire v = 12,3456 m/s, c'est perdre le point.
+❌ 3. Remplacer par les valeurs dès la première ligne. On écrit d'abord l'expression littérale (c = n / V), puis l'application numérique. C'est ce que le correcteur note, et c'est ce qui permet de repérer ses propres erreurs.
+
+**CTA** : Envoyez ce post à un lycéen qui a un contrôle cette semaine ⚡
+
+`#physiquechimie #lycee #bac2027 #specialitephysique #methodologie #revisions #coursparticuliers #Paris #Paris5 #Paris13 #IvrySurSeine #lyceens`
+
+---
+
+### Post 5 – mardi 24 novembre · Le parrainage
+**Visuel** : parrainage
+
+**Accroche** : Vous recommandez. Vous gagnez 2 h de cours. 🎁
+
+**Texte**
+Le parrainage Stud+ est lancé.
+👉 La famille que vous recommandez : sa 1re heure de cours est offerte.
+👉 Vous : une séance de 2 h offerte, dès qu'elle a fait sa 4e séance.
+La seule règle : elle donne votre nom dans son premier message. C'est tout.
+Camarade de classe, cousin, voisin de palier qui cherche un prof de maths ou de physique-chimie : c'est le moment.
+
+**CTA** : Identifiez en commentaire un parent qui cherche un prof (ou envoyez-lui ce post).
+
+`#parrainage #coursparticuliers #profdemaths #physiquechimie #soutienscolaire #Paris #Paris12 #Paris11 #Vincennes #SaintMande #parentsparisiens`
+
+---
+
+### Post 6 – vendredi 27 novembre · Lancement du Pack Noël
+**Visuel** : Pack Noël
+
+**Accroche** : Brevet blanc ou bac blanc en janvier ? Les vacances de Noël décident de tout. 🎄
+
+**Texte**
+Le Pack Noël Stud+ :
+📅 3 séances de 2 h pendant les vacances (du 19 décembre au 4 janvier)
+🏠 à domicile, en individuel
+🎯 centrées sur les chapitres de l'épreuve, avec des sujets en conditions réelles
+💶 300 €, soit 150 € payés après Avance Immédiate
+Je suis seul à assurer toutes les séances : les places sont limitées.
+Réservation avant le 14 décembre.
+
+**CTA** : Écrivez « NOËL » sur WhatsApp (lien dans la bio) pour bloquer vos dates.
+
+`#packnoel #brevetblanc #bacblanc #brevet2027 #bac2027 #revisions #vacancesdenoel #coursparticuliers #Paris #Paris15 #Boulogne #parentsparisiens`
+
+---
+
+### Post 7 – mardi 1er décembre · Une séance de 2 h, comment ça se passe
+**Visuel** : présentation (titre changé : « 2 h, mode d'emploi »)
+
+**Accroche** : Pourquoi 2 h et pas 1 h ? Voici le déroulé d'une séance. ⏱️
+
+**Texte**
+⏱️ 0 – 15 min : on regarde ensemble le dernier contrôle, le cahier, les devoirs.
+⏱️ 15 – 45 min : on reprend le point du cours qui bloque, avec un exemple simple.
+⏱️ 45 min – 1 h 30 : exercices, du plus guidé au plus autonome. Je corrige chaque erreur sur le moment.
+⏱️ 1 h 30 – 1 h 50 : un exercice type contrôle, sans aide.
+⏱️ 1 h 50 – 2 h : on note les devoirs et l'objectif de la prochaine séance.
+Le soir même : compte rendu dans l'espace de suivi, pour l'élève et pour les parents.
+En 1 h, on s'arrête juste au moment où ça commence à rentrer.
+
+**CTA** : Une question sur le format ? Je réponds en commentaire ou en message.
+
+`#coursparticuliers #methodedetravail #profdemaths #physiquechimie #college #lycee #Paris #Paris14 #Montrouge #Malakoff #parentsparisiens`
+
+---
+
+### Post 8 – vendredi 4 décembre · 3 réflexes avant un contrôle de maths
+**Visuel** : « 3 erreurs classiques » (gabarit réutilisé, titre changé : « 3 réflexes avant un contrôle de maths »)
+
+**Accroche** : Relire son cours ne suffit pas. Voici ce qui marche vraiment. 🧠
+
+**Texte**
+✅ 1. Refaire les exercices de la classe sans regarder la correction. Relire donne l'impression de comprendre ; refaire montre ce qu'on sait vraiment faire.
+✅ 2. Apprendre chaque théorème avec ses conditions. « Si le triangle est rectangle, alors… » : oublier le « si », c'est la moitié des points de rédaction qui partent.
+✅ 3. Vérifier son résultat avec un exemple. Une dérivée, une solution d'équation : on remplace par une valeur simple et on contrôle en 30 secondes.
+
+**CTA** : Enregistrez ce post et ressortez-le la veille du prochain contrôle 📌
+
+`#maths #revisions #brevet2027 #bac2027 #methodologie #profdemaths #college #lycee #Paris #Paris17 #Levallois #parentsparisiens`
+
+---
+
+### Post 9 – mardi 8 décembre · Pack Noël, dernière semaine
+**Visuel** : Pack Noël
+
+**Accroche** : Plus que 6 jours pour réserver le Pack Noël. ⏳
+
+**Texte**
+Les brevets blancs et bacs blancs de janvier tombent juste après la rentrée. Les vacances sont les seuls jours où l'on peut réviser sans devoirs à rendre le lendemain.
+3 séances de 2 h à domicile entre le 19 décembre et le 3 janvier · 150 € payés après Avance Immédiate · aucun acompte, facturation avec les séances du mois.
+Le programme de chaque séance est prêt dans l'espace de suivi avant le premier cours.
+
+**CTA** : Réservez avant le 14 décembre sur WhatsApp, lien dans la bio.
+
+`#packnoel #brevetblanc #bacblanc #revisions #vacancesdenoel #coursparticuliers #Paris #Paris16 #Neuilly #Boulogne #parentsparisiens`
+
+---
+
+### Post 10 – vendredi 11 décembre · Ce que les parents voient après une séance
+**Visuel** : suivi en ligne (capture « Élève démo »)
+
+**Accroche** : Voici exactement ce que reçoit un parent après une séance Stud+. 👇
+
+**Texte**
+Un vrai compte rendu, pas un « ça s'est bien passé » :
+• ce qu'on a travaillé (par exemple : « Équations du second degré, discriminant, cas Δ < 0 »)
+• ce qui est acquis, ce qui reste fragile
+• les devoirs pour la prochaine fois, avec la date
+• la compétence cochée dans le tableau du trimestre
+C'est la semaine des conseils de classe : avec ce suivi, le bulletin n'est jamais une surprise.
+
+**CTA** : Écrivez « SUIVI » en message pour recevoir l'espace de démonstration.
+
+`#suiviscolaire #conseildeclasse #bulletin #coursparticuliers #edtech #parents #Paris #Paris20 #Montreuil #LesLilas #parentsparisiens`
+
+---
+
+### Post 11 – mardi 15 décembre · Avance Immédiate : vos 4 questions
+**Visuel** : Avance Immédiate expliquée (dernière diapositive changée en « Vos questions »)
+
+**Accroche** : « C'est vraiment 50 % tout de suite ? » Oui. Et voici les réponses aux 3 autres questions. 💬
+
+**Texte**
+❓ C'est vraiment déduit tout de suite ? Oui : vous payez 50 € pour une séance de 2 h facturée 100 €.
+❓ Je dois faire une démarche ? Une seule fois : activer votre compte URSSAF via l'e-mail que vous recevez à l'inscription.
+❓ Et chaque mois ? Un e-mail de l'URSSAF, 48 h pour valider. Sans réponse, c'est validé automatiquement.
+❓ Et pour deux enfants ? Formule fratrie : 140 € la séance pour les deux, 70 € payés.
+
+**CTA** : Une autre question ? Posez-la en commentaire, je réponds à toutes.
+
+`#avanceimmediate #creditdimpot #urssaf #servicesalapersonne #coursparticuliers #budgetfamille #Paris #IledeFrance #Paris13 #Charenton #parentsparisiens`
+
+---
+
+### Post 12 – vendredi 18 décembre · Bonnes vacances et rentrée de janvier
+**Visuel** : parrainage
+
+**Accroche** : Dernier jour de cours avant les vacances. Bravo à tous mes élèves pour ce 1er trimestre. 👏
+
+**Texte**
+Les séances du Pack Noël commencent demain, et janvier se prépare déjà.
+Pour la rentrée, j'ouvre de nouveaux créneaux à domicile en maths et physique-chimie, du collège au lycée.
+Et si une famille de votre entourage cherche un prof pour le 2e trimestre, pensez au parrainage : 1re heure offerte pour elle, une séance de 2 h offerte pour vous dès sa 4e séance.
+Bonnes fêtes à toutes les familles 🎄
+
+**CTA** : Réservez votre créneau de janvier sur WhatsApp, lien dans la bio.
+
+`#bonnesvacances #rentreejanvier #coursparticuliers #parrainage #profdemaths #physiquechimie #Paris #Paris15 #Vincennes #Boulogne #parentsparisiens`
+
+---
+
+## 4. Les stories (5 min chacune)
+
+- **Le tableau du jour** : une photo de votre feuille ou de votre tableau blanc avec l'exercice de la séance (sans l'élève), et un sondage « Tu saurais le faire ? Oui / Pas encore ».
+- **Le quiz du mercredi** : une question en 1 ligne (« 0,5 L = combien de mL ? ») avec l'autocollant Quiz.
+- **Le compte à rebours** : autocollant « Compte à rebours » jusqu'au 14 décembre pour le Pack Noël.
+- **Le partage** : republier chaque post du feed en story le jour même, avec un autocollant « Lien » vers WhatsApp.
+- **Les coulisses** : « 21 h 40, 3 comptes rendus envoyés aux parents » avec une capture de l'espace de démonstration.
+
+---
+
+## 5. Les groupes Facebook de parents
+
+C'est là que les parents demandent « Vous connaissez un bon prof de maths dans le 15e ? ». Un prof qui y est présent **sans faire de publicité** reçoit ces demandes.
+
+### Trouver les bons groupes (20 min, une fois)
+Dans la recherche Facebook, onglet « Groupes », tapez : « parents Paris 15 », « mamans du 14e », « parents d'élèves Boulogne », « entraide Vincennes », « parents [nom du collège ou du lycée] », « bons plans Issy-les-Moulineaux ». Retenez **6 groupes** : actifs (publications cette semaine), locaux, et dont le règlement autorise les professionnels au moins certains jours.
+
+### Les 8 règles pour ne pas être traité comme du spam
+1. **Lire le règlement** (onglet « À propos ») avant toute publication. Beaucoup ont un jour réservé aux professionnels ou un fil « pros » épinglé : publiez uniquement là.
+2. **Demander l'accord de l'administrateur** par message privé avant la première publication (message A). C'est la règle la plus efficace : un post approuvé n'est jamais signalé.
+3. **Publier avec votre profil personnel, photo réelle et prénom**, jamais avec une page anonyme.
+4. **Une publication par groupe et par mois au maximum.** Entre deux, on aide.
+5. **Donner avant de demander** : la première publication est un conseil utile (message B), pas une offre.
+6. **Répondre aux demandes, pas les provoquer** : quand un parent cherche un prof, répondez en commentaire en 3 lignes (message C), puis proposez de continuer en privé.
+7. **Pas de lien dans le texte** quand le groupe les filtre : donnez le numéro, ou mettez le lien en premier commentaire si c'est autorisé.
+8. **Ne jamais copier-coller le même texte** dans 6 groupes le même jour : Facebook le détecte et les membres aussi. Changez l'accroche et le quartier.
+
+### Message A – Demande à l'administrateur (message privé)
+> Bonjour [Prénom], je suis Hamza, je donne des cours de maths et de physique-chimie à domicile dans le [15e / à Boulogne] (collège et lycée). Je fais partie du groupe depuis peu et je voulais vous demander avant de publier quoi que ce soit : est-ce que je peux partager une fois un post utile aux parents, sur le crédit d'impôt immédiat pour les cours à domicile (beaucoup de familles ne le connaissent pas), avec une ligne sur mon activité à la fin ? Si vous préférez un jour ou un fil précis, je m'y tiens. Merci pour l'animation du groupe !
+
+### Message B – La publication « conseil d'abord »
+> **Parents de collégiens et lycéens : vous payez peut-être vos cours particuliers deux fois trop cher 💶**
+>
+> Beaucoup de familles avancent le prix des cours à domicile et attendent la déclaration d'impôts pour récupérer 50 %. Ce n'est plus obligatoire : avec l'**Avance Immédiate** de l'URSSAF, si votre prof est déclaré service à la personne, le crédit d'impôt est déduit **tout de suite**.
+> Comment ça marche : fin de mois, le prof envoie sa facture → vous recevez un e-mail de l'URSSAF → vous validez en 48 h (sinon c'est automatique) → vous ne payez que la moitié.
+> ⚠️ Seuls les cours **à domicile** y ont droit, pas la visio.
+>
+> Pour la transparence : je suis Hamza, je donne des cours de maths et de physique-chimie à domicile dans le [secteur], c'est comme ça que je fonctionne (100 € la séance de 2 h, 50 € payés). Si vous avez des questions sur le dispositif, posez-les en commentaire, je réponds à tout, même si vous avez déjà un prof.
+
+### Message C – Réponse à un parent qui cherche un prof (commentaire)
+> Bonjour [Prénom] ! Je donne des cours de maths et de physique-chimie à domicile dans le [secteur], du collège à la terminale : séances de 2 h, compte rendu en ligne pour les parents après chaque séance, et 50 € payés la séance grâce à l'Avance Immédiate. Je vous envoie un message privé avec les détails, ou vous pouvez m'écrire au 07 82 92 38 89.
+
+**Après chaque publication** : notez dans Notion le groupe, la date, le nombre de réactions et les demandes reçues. Au bout d'un mois, gardez les 3 groupes qui ont produit au moins un échange et remplacez les autres.
