@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stage de Noël 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  /* Affiche A4 imprimable (210 x 297 mm), une seule page.
+     Impression : format A4, marges « aucune », cocher « graphiques d'arrière-plan ». */
+  @page { size: A4; margin: 0; }
+  :root {
+    --bleu: #1f6fd1;
+    --bleu-fonce: #0f2a4a;
+    --bleu-pale: #e8f1fc;
+    --rouge: #e03a3a;
+    --rouge-pale: #fde9e9;
+    --jaune: #ffc928;
+    --gris: #5b6675;
+    --vert: #1f9d55;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  body {
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif; color: var(--bleu-fonce);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page { width: 210mm; height: 297mm; overflow: hidden; position: relative; display: flex; flex-direction: column; background: #fff; }
+  @media screen {
+    body { background: #d9dee5; }
+    .page { margin: 16px auto; box-shadow: 0 4px 24px rgba(0,0,0,.18); }
+  }
+
+  .page > * { flex-shrink: 0; }
+  header {
+    background: var(--bleu-fonce); color: #fff; padding: 9mm 13mm 8mm; position: relative; overflow: hidden;
+  }
+  header .flocons { position: absolute; right: -6mm; top: -6mm; width: 70mm; opacity: .13; }
+  .marque { display: flex; align-items: center; gap: 3.5mm; margin-bottom: 5mm; }
+  .marque img { width: 13mm; height: 13mm; background: #fff; border-radius: 3mm; padding: 1mm; }
+  .marque .nom { font-weight: 900; font-size: 18pt; line-height: 1; }
+  .marque .sous { font-size: 9pt; opacity: .85; margin-top: 1mm; }
+  .badge {
+    display: inline-block; background: var(--rouge); color: #fff; font-weight: 800; font-size: 10pt;
+    text-transform: uppercase; letter-spacing: .6pt; padding: 1.6mm 3.5mm; border-radius: 2mm; margin-bottom: 3mm;
+  }
+  h1 { margin: 0; font-size: 33pt; line-height: 1.04; font-weight: 900; letter-spacing: -.8pt; }
+  h1 em { font-style: normal; color: var(--jaune); }
+  .chapo { margin: 3.5mm 0 0; font-size: 11pt; line-height: 1.4; max-width: 160mm; opacity: .95; }
+  .bande { height: 3.5mm; background: linear-gradient(90deg, var(--bleu) 0 60%, var(--rouge) 60% 80%, var(--jaune) 80% 100%); }
+
+  main { padding: 5.5mm 13mm 0; display: flex; flex-direction: column; gap: 4.5mm; flex: 1 1 auto; }
+
+  .dates {
+    display: flex; align-items: center; gap: 5mm; background: var(--bleu-pale); border-radius: 4mm; padding: 3mm 5mm;
+  }
+  .dates .ico { flex: none; width: 14mm; height: 14mm; border-radius: 3mm; background: var(--bleu); color: #fff;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 800; line-height: 1; }
+  .dates .ico b { font-size: 15pt; } .dates .ico small { font-size: 6.5pt; text-transform: uppercase; margin-top: .5mm; }
+  .dates p { margin: 0; font-size: 11pt; line-height: 1.4; }
+  .dates strong { font-size: 12.5pt; }
+
+  h2 { margin: 0 0 2.5mm; font-size: 14pt; font-weight: 800; letter-spacing: -.2pt; }
+
+  .formules { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .formule { border-radius: 4mm; padding: 4mm 5mm; display: flex; flex-direction: column; }
+  .formule.groupe { background: var(--jaune); }
+  .formule.indiv { border: .6mm solid var(--bleu-fonce); }
+  .formule .type { font-size: 9pt; font-weight: 800; text-transform: uppercase; letter-spacing: .5pt; }
+  .formule .titre { font-size: 15pt; font-weight: 900; margin: 1mm 0 2mm; line-height: 1.1; }
+  .formule .prix { font-size: 22pt; font-weight: 900; letter-spacing: -.6pt; line-height: 1; margin: 1mm 0 2mm; }
+  .formule .prix small { font-size: 11pt; letter-spacing: 0; font-weight: 700; }
+  .formule ul { margin: 0; padding-left: 4.5mm; font-size: 9.5pt; line-height: 1.4; }
+
+  .programme { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3.5mm; }
+  .etape { border-top: 1.2mm solid var(--bleu); padding-top: 2.5mm; }
+  .etape .n { font-size: 9pt; font-weight: 800; color: var(--bleu); text-transform: uppercase; letter-spacing: .4pt; }
+  .etape .t { font-size: 11pt; font-weight: 800; margin: 1mm 0; line-height: 1.2; }
+  .etape p { margin: 0; font-size: 8.8pt; line-height: 1.4; color: #2a3a50; }
+
+  .publics { display: grid; grid-template-columns: 1fr 1fr 0.8fr; gap: 4mm; }
+  .public.matiere { background: var(--bleu-pale); }
+  .public.matiere b { color: var(--bleu); }
+  .public { background: var(--rouge-pale); border-radius: 3mm; padding: 3mm 4mm; font-size: 9.5pt; line-height: 1.4; }
+  .public b { display: block; font-size: 10.5pt; color: var(--rouge); margin-bottom: .5mm; }
+
+  footer {
+    margin: 5mm 13mm 7mm; background: var(--bleu-fonce); color: #fff; border-radius: 5mm; padding: 4mm 5mm;
+    display: grid; grid-template-columns: 27mm 1fr auto; gap: 6mm; align-items: center;
+  }
+  .qr { background: #fff; border-radius: 2.5mm; padding: 1.2mm; }
+  .qr img { display: block; width: 100%; height: auto; }
+  .contact .cta { font-size: 15pt; font-weight: 900; line-height: 1.15; margin-bottom: 2mm; }
+  .contact .cta span { color: var(--jaune); }
+  .contact p { margin: .8mm 0; font-size: 10pt; }
+  .contact .tel { font-size: 17pt; font-weight: 800; }
+  .places { text-align: center; background: var(--rouge); border-radius: 3.5mm; padding: 3.5mm 4mm; font-weight: 800; line-height: 1.15; }
+  .places b { display: block; font-size: 22pt; }
+  .places small { font-size: 8.5pt; text-transform: uppercase; letter-spacing: .4pt; }
+  .mentions { font-size: 7pt; line-height: 1.35; color: var(--gris); padding: 0 13mm 5mm; margin-top: -3mm; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <svg class="flocons" viewBox="0 0 100 100" aria-hidden="true">
+      <g stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none">
+        <path d="M50 8v84M13.6 29l72.8 42M13.6 71l72.8-42"/>
+        <path d="M40 14l10 10 10-10M40 86l10-10 10 10M17 41l13-3-3-13M83 59l-13 3 3 13M17 59l13 3-3 13M83 41l-13-3 3-13"/>
+      </g>
+    </svg>
+    <div class="marque">
+      <img src="assets/logo-stud-plus.png" alt="Logo Stud+">
+      <div>
+        <div class="nom">Stud+</div>
+        <div class="sous">Soutien scolaire collège &amp; lycée · [[VILLE]]</div>
+      </div>
+    </div>
+    <div class="badge">Stage de révision · Vacances de Noël 2026</div>
+    <h1>Brevet blanc, bac blanc :<br><em>arriver prêt en janvier.</em></h1>
+    <p class="chapo">Les épreuves blanches arrivent dès la rentrée de janvier. Pendant les vacances, on reprend les points fragiles et on s'entraîne en conditions réelles.</p>
+  </header>
+  <div class="bande"></div>
+
+  <main>
+    <div class="dates">
+      <div class="ico" aria-hidden="true"><b>19</b><small>déc.</small></div>
+      <p><strong>Vacances du samedi 19 décembre 2026 au lundi 4 janvier 2027</strong><br>
+      Dates des séances du stage : [[DATES_STAGE]]</p>
+    </div>
+
+    <section>
+      <h2>Deux formules au choix</h2>
+      <div class="formules">
+        <div class="formule groupe">
+          <div class="type">Petit groupe</div>
+          <div class="titre">3 à 4 élèves, même niveau</div>
+          <div class="prix">[[PRIX_STAGE]]</div>
+          <ul>
+            <li>Révisions ciblées et méthode</li>
+            <li>Entraînement chronométré à plusieurs</li>
+            <li>4 élèves maximum par groupe</li>
+          </ul>
+        </div>
+        <div class="formule indiv">
+          <div class="type">Individuel</div>
+          <div class="titre">Programme sur mesure</div>
+          <div class="prix">25&nbsp;€<small>/h après Avance Immédiate</small></div>
+          <ul>
+            <li>Tarif habituel 50 €/h, 50 % déduits d'office</li>
+            <li>On travaille uniquement ses difficultés</li>
+            <li>Horaires adaptés à votre famille</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Le déroulé du stage</h2>
+      <div class="programme">
+        <div class="etape"><div class="n">Étape 1</div><div class="t">Diagnostic</div><p>On repère les chapitres et compétences fragiles.</p></div>
+        <div class="etape"><div class="n">Étape 2</div><div class="t">Mise à niveau</div><p>Reprise des notions clés, fiches de méthode, exercices types.</p></div>
+        <div class="etape"><div class="n">Étape 3</div><div class="t">Épreuve blanche</div><p>Un sujet en temps limité, corrigé en détail.</p></div>
+        <div class="etape"><div class="n">Étape 4</div><div class="t">Bilan partagé</div><p>Compte rendu dans l'espace de suivi en ligne et plan pour janvier.</p></div>
+      </div>
+    </section>
+
+    <div class="publics">
+      <div class="public"><b>3<sup>e</sup> · Brevet blanc</b>Bases, méthode, gestion du temps.</div>
+      <div class="public"><b>1<sup>re</sup> &amp; terminale · Bac blanc</b>Programme du trimestre, sujets type.</div>
+      <div class="public matiere"><b>Matières</b>[[MATIERES]]</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="qr"><img src="assets/qr-lien-site.svg" alt="QR code vers [[LIEN_SITE]]"></div>
+    <div class="contact">
+      <div class="cta">Réservez la place de votre enfant <span>avant le 14 décembre</span></div>
+      <p class="tel">[[TELEPHONE]]</p>
+      <p>[[EMAIL]] · [[LIEN_SITE]]</p>
+    </div>
+    <div class="places"><small>Places</small><b>limitées</b><small>4 élèves / groupe</small></div>
+  </footer>
+  <div class="mentions">Cours individuels : 50 €/h, soit 25 €/h payés après Avance Immédiate du crédit d'impôt « services à la personne » (50 %), pour les foyers éligibles et les cours à domicile. Facturation mensuelle. Stud+, micro-entreprise.</div>
+</div>
+</body>
+</html>

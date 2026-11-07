@@ -9,6 +9,7 @@ const dir = path.join(__dirname, '..');
 const pages = [
   { html: 'flyer-a5.html', pdf: 'flyer-a5.pdf', format: 'A5' },
   { html: 'stage-noel-2026.html', pdf: 'stage-noel-2026.pdf', format: 'A4' },
+  { html: 'carte-parrainage.html', pdf: 'carte-parrainage.pdf', format: '85x55mm' },
 ];
 
 (async () => {

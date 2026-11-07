@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flyer Stud+ A5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  /* Flyer A5 imprimable (148 x 210 mm), une seule page.
+     Impression : format A5, marges « aucune », cocher « graphiques d'arrière-plan ». */
+  @page { size: A5; margin: 0; }
+  :root {
+    --bleu: #1f6fd1;
+    --bleu-fonce: #0f2a4a;
+    --bleu-pale: #e8f1fc;
+    --rouge: #e03a3a;
+    --jaune: #ffc928;
+    --jaune-pale: #fff6d6;
+    --gris: #5b6675;
+    --vert: #1f9d55;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  body {
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    color: var(--bleu-fonce);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page {
+    width: 148mm; height: 210mm; overflow: hidden;
+    position: relative; display: flex; flex-direction: column;
+    background: #ffffff;
+  }
+  @media screen {
+    body { background: #d9dee5; }
+    .page { margin: 16px auto; box-shadow: 0 4px 24px rgba(0,0,0,.18); }
+  }
+
+  /* En-tête */
+  header {
+    background: var(--bleu-fonce); color: #fff;
+    padding: 6mm 8mm 5mm; position: relative;
+  }
+  header::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -3mm; height: 3mm;
+    background: linear-gradient(90deg, var(--bleu) 0 60%, var(--rouge) 60% 80%, var(--jaune) 80% 100%);
+  }
+  .marque { display: flex; align-items: center; gap: 3mm; margin-bottom: 3.5mm; }
+  .marque img { width: 13mm; height: 13mm; background: #fff; border-radius: 3mm; padding: 1mm; }
+  .marque .nom { font-weight: 900; font-size: 17pt; letter-spacing: -.3pt; line-height: 1; }
+  .marque .sous { font-size: 8pt; opacity: .85; margin-top: 1mm; }
+  h1 {
+    margin: 0; font-size: 22pt; line-height: 1.08; font-weight: 900; letter-spacing: -.4pt;
+  }
+  h1 em { font-style: normal; color: var(--jaune); }
+  .chapo { margin: 2mm 0 0; font-size: 8.8pt; line-height: 1.35; opacity: .92; }
+
+  main { padding: 5mm 8mm 0; flex: 1; display: flex; flex-direction: column; gap: 2.6mm; }
+
+  /* Bloc prix */
+  .prix {
+    display: grid; grid-template-columns: 1.25fr 1fr; gap: 3mm; align-items: stretch;
+  }
+  .prix-principal {
+    background: var(--jaune); border-radius: 4mm; padding: 3.5mm 4mm;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .prix-principal .label { font-size: 7.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .4pt; }
+  .prix-principal .montant { font-size: 36pt; font-weight: 900; line-height: .95; letter-spacing: -1.2pt; }
+  .prix-principal .montant small { font-size: 15pt; letter-spacing: 0; }
+  .prix-principal .barre { font-size: 8.5pt; margin-top: 1mm; }
+  .prix-principal .barre s { opacity: .75; }
+  .prix-secondaire {
+    border: .5mm solid var(--bleu-fonce); border-radius: 4mm; padding: 3mm 3.5mm;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .prix-secondaire .label { font-size: 7.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .4pt; }
+  .prix-secondaire .montant { font-size: 22pt; font-weight: 900; line-height: 1; letter-spacing: -.6pt; }
+  .prix-secondaire .montant small { font-size: 10pt; letter-spacing: 0; }
+  .prix-secondaire .barre { font-size: 7.5pt; margin-top: 1mm; color: var(--gris); }
+  .ai {
+    font-size: 8pt; line-height: 1.35; color: var(--bleu-fonce);
+    background: var(--bleu-pale); border-radius: 2.5mm; padding: 2mm 3mm; margin-top: -1mm;
+  }
+  .ai strong { color: var(--bleu); }
+
+  /* Suivi en ligne */
+  .suivi { display: grid; grid-template-columns: 1fr 50mm; gap: 4mm; align-items: center; }
+  .suivi h2 { margin: 0 0 1.5mm; font-size: 12.5pt; line-height: 1.15; font-weight: 800; }
+  .suivi h2 span { color: var(--bleu); }
+  .suivi ul { margin: 0; padding: 0; list-style: none; font-size: 8.4pt; line-height: 1.3; }
+  .suivi li { display: flex; gap: 1.8mm; margin: 0 0 .8mm; }
+  .suivi li::before {
+    content: "✓"; flex: none; width: 3.6mm; height: 3.6mm; border-radius: 1mm;
+    background: var(--vert); color: #fff; font-size: 6.5pt; font-weight: 800;
+    display: inline-flex; align-items: center; justify-content: center; margin-top: .3mm;
+  }
+
+  /* Maquette de l'espace élève (illustration, sans données réelles) */
+  .maquette {
+    border: .4mm solid #c9d6e6; border-radius: 3mm; background: #fff; overflow: hidden;
+    font-size: 6.3pt; box-shadow: 0 1.5mm 4mm rgba(15,42,74,.14);
+  }
+  .maquette .barre-titre {
+    background: var(--bleu); color: #fff; font-weight: 700; padding: 1.5mm 2.5mm; font-size: 6.8pt;
+    display: flex; justify-content: space-between;
+  }
+  .maquette .bloc { padding: 1.2mm 2.5mm; border-bottom: .3mm solid #e3eaf3; }
+  .maquette .bloc:last-child { border-bottom: 0; }
+  .maquette .titre { font-weight: 700; color: var(--gris); text-transform: uppercase; font-size: 5.4pt; letter-spacing: .3pt; margin-bottom: .8mm; }
+  .maquette .case { display: flex; align-items: center; gap: 1.2mm; margin: .5mm 0; }
+  .maquette .case i {
+    width: 2.4mm; height: 2.4mm; border-radius: .6mm; border: .3mm solid #9fb1c8; display: inline-block; flex: none;
+  }
+  .maquette .case.ok i { background: var(--vert); border-color: var(--vert); }
+  .maquette .ligne { height: 1.3mm; background: #e3eaf3; border-radius: 1mm; margin: .7mm 0; }
+  .maquette svg { display: block; width: 100%; height: 7mm; }
+
+  /* Pied : QR + contact */
+  footer {
+    margin: 2.5mm 8mm 3.5mm; padding: 3mm; border-radius: 4mm;
+    background: var(--bleu-fonce); color: #fff;
+    display: grid; grid-template-columns: 25mm 1fr; gap: 4mm; align-items: center;
+  }
+  .qr { background: #fff; border-radius: 2mm; padding: 1mm; }
+  .qr img { display: block; width: 100%; height: auto; }
+  .contact .cta { font-size: 11.5pt; font-weight: 800; line-height: 1.15; margin-bottom: 1.5mm; }
+  .contact .cta span { color: var(--jaune); }
+  .contact p { margin: .6mm 0; font-size: 8.5pt; }
+  .contact .tel { font-size: 13pt; font-weight: 800; letter-spacing: .2pt; }
+  .mentions { font-size: 5.8pt; line-height: 1.3; color: var(--gris); padding: 0 8mm 3.5mm; margin-top: -1mm; }
+  .matieres { font-size: 8.4pt; line-height: 1.3; }
+  .matieres strong { color: var(--bleu); }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="marque">
+      <img src="assets/logo-stud-plus.png" alt="Logo Stud+">
+      <div>
+        <div class="nom">Stud+</div>
+        <div class="sous">Cours particuliers collège &amp; lycée · Paris et région parisienne</div>
+      </div>
+    </div>
+    <h1>Maths, physique-chimie :<br><em>voyez ses progrès.</em></h1>
+    <p class="chapo">Des séances de 2 h, et après chacune un compte rendu dans l'espace de suivi en ligne de votre enfant : ce qui est acquis, ce qui reste à faire.</p>
+  </header>
+
+  <main>
+    <section class="prix" aria-label="Tarifs">
+      <div class="prix-principal">
+        <div class="label">Individuel · séance de 2 h</div>
+        <div class="montant">50&nbsp;€<small> / 2 h</small></div>
+        <div class="barre"><s>100 €</s> · soit 25 €/h payés</div>
+      </div>
+      <div class="prix-secondaire">
+        <div class="label">Fratrie (2 enfants)</div>
+        <div class="montant">70&nbsp;€<small> / 2 h</small></div>
+        <div class="barre"><s>140 €</s> · pour les deux</div>
+      </div>
+    </section>
+    <div class="ai"><strong>Avance Immédiate URSSAF :</strong> les 50 % de crédit d'impôt sont déduits tout de suite, vous n'avancez rien. Une facture par mois.</div>
+
+    <section class="suivi">
+      <div>
+        <h2>Un espace de suivi en ligne, <span>partagé avec vous</span></h2>
+        <ul>
+          <li>Les devoirs à faire, toujours à jour</li>
+          <li>Un compte rendu après chaque séance</li>
+          <li>Les compétences acquises, cochées une à une</li>
+          <li>Les objectifs du trimestre</li>
+          <li>L'évolution des notes</li>
+        </ul>
+      </div>
+      <div class="maquette" aria-hidden="true">
+        <div class="barre-titre"><span>Espace de suivi</span><span>Stud+</span></div>
+        <div class="bloc">
+          <div class="titre">Compte rendu de séance</div>
+          <div class="ligne" style="width:92%"></div>
+          <div class="ligne" style="width:70%"></div>
+        </div>
+        <div class="bloc">
+          <div class="titre">Compétences</div>
+          <div class="case ok"><i></i><span class="ligne" style="width:26mm;margin:0"></span></div>
+          <div class="case ok"><i></i><span class="ligne" style="width:20mm;margin:0"></span></div>
+          <div class="case"><i></i><span class="ligne" style="width:23mm;margin:0"></span></div>
+        </div>
+        <div class="bloc">
+          <div class="titre">Évolution des notes</div>
+          <svg viewBox="0 0 100 24" preserveAspectRatio="none">
+            <polyline points="2,20 20,17 38,18 56,12 74,10 98,5" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <p class="matieres"><strong>Spécialiste des sciences, 6<sup>e</sup> → terminale :</strong> brevet, spécialités maths et physique-chimie, Grand oral.</p>
+  </main>
+
+  <footer>
+    <div class="qr"><img src="assets/qr-lien-site.svg" alt="QR code vers [[LIEN_SITE]]"></div>
+    <div class="contact">
+      <div class="cta">Premier échange <span>sans engagement</span> avec Hamza</div>
+      <p class="tel">07 82 92 38 89</p>
+      <p>Appel, SMS ou WhatsApp · [[EMAIL]]</p>
+      <p>[[LIEN_SITE]]</p>
+    </div>
+  </footer>
+  <div class="mentions">Tarifs après Avance Immédiate du crédit d'impôt « services à la personne » (50 %), pour les foyers éligibles et les cours à domicile. Prix avant crédit d'impôt : 50 €/h en individuel (100 € la séance de 2 h), 70 €/h pour une fratrie de 2 enfants (140 € la séance de 2 h). Stud+, micro-entreprise.</div>
+</div>
+</body>
+</html>
