@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Stud+ · Jetons de design (design tokens)
+   Source unique partagée par le site, les supports imprimés et les visuels.
+   Polices (à charger depuis Google Fonts dans chaque page) :
+   https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400..700&display=swap
+   ========================================================================== */
+
+:root {
+  /* --- Couleurs de marque --------------------------------------------- */
+  --ink: #0A0F1F;          /* texte principal, fonds sombres */
+  --ink-2: #1B2340;        /* fonds sombres secondaires, cartes sur fond sombre */
+  --blue: #2F5BFF;         /* couleur principale, électrique */
+  --blue-700: #2449D8;     /* bleu pour texte sur --blue-soft (AA) et survols */
+  --blue-soft: #E8EDFF;    /* fonds de mise en avant */
+  --blue-300: #7C98FF;     /* bleu lisible sur fond sombre */
+  --violet: #7B5CFF;       /* uniquement dans les halos de dégradé */
+  --yellow: #FFC531;       /* le « + », accents, prix */
+  --coral: #FF5B4A;        /* le trait du logo : avec parcimonie */
+  --coral-700: #D93A2B;    /* corail pour un texte sur fond clair (AA) */
+  --mint: #16C79A;         /* validation, compétence acquise */
+  --mint-700: #0B7A5C;     /* menthe pour un texte sur fond clair (AA) */
+  --paper: #F7F8FC;        /* fonds clairs */
+  --white: #FFFFFF;
+  --line: #E3E6F0;         /* filets, bordures */
+  --muted: #4A5270;        /* texte secondaire sur fond clair */
+  --muted-dark: #A9B1CC;   /* texte secondaire sur fond sombre */
+
+  /* --- Typographie ------------------------------------------------------ */
+  --font-display: "Bricolage Grotesque", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --tracking-display: -0.025em;
+  --tracking-tight: -0.01em;
+  --tracking-caps: 0.08em;
+
+  /* Échelle typographique (ratio 1,25, base 16 px) */
+  --fs-xs: 0.8rem;     /* 12,8 px : mentions */
+  --fs-sm: 0.875rem;   /* 14 px : légendes */
+  --fs-base: 1rem;     /* 16 px : texte courant */
+  --fs-lg: 1.25rem;    /* 20 px : chapô */
+  --fs-xl: 1.563rem;   /* 25 px : H3 */
+  --fs-2xl: 1.953rem;  /* 31 px : H2 mobile */
+  --fs-3xl: 2.441rem;  /* 39 px : H2 */
+  --fs-4xl: 3.052rem;  /* 49 px : H1 mobile */
+  --fs-5xl: 3.815rem;  /* 61 px : H1 */
+  --lh-tight: 1.05;
+  --lh-snug: 1.2;
+  --lh-body: 1.55;
+
+  /* --- Formes ----------------------------------------------------------- */
+  --radius-sm: 12px;
+  --radius: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 1px 2px rgba(10, 15, 31, .05), 0 12px 32px -8px rgba(10, 15, 31, .12);
+  --shadow-lift: 0 2px 4px rgba(10, 15, 31, .06), 0 24px 48px -12px rgba(47, 91, 255, .28);
+  --tilt: -6deg;       /* l'angle du trait du logo, réutilisé pour les étiquettes */
+  --tilt-plus: 12deg;  /* l'angle du « + » */
+
+  /* --- Motifs signature -------------------------------------------------- */
+  /* Papier millimétré très léger (fonds clairs) */
+  --grid-light:
+    linear-gradient(rgba(47, 91, 255, .07) 1px, transparent 1px) 0 0 / 24px 24px,
+    linear-gradient(90deg, rgba(47, 91, 255, .07) 1px, transparent 1px) 0 0 / 24px 24px;
+  /* Papier millimétré sur fond sombre */
+  --grid-dark:
+    linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px) 0 0 / 24px 24px,
+    linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px) 0 0 / 24px 24px;
+  /* Halos bleu/violet flous sur fond sombre */
+  --halo:
+    radial-gradient(40% 50% at 85% 10%, rgba(47, 91, 255, .55), transparent 70%),
+    radial-gradient(35% 45% at 10% 90%, rgba(123, 92, 255, .40), transparent 70%);
+}

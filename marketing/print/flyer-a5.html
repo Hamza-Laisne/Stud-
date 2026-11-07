@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Stud+ · Flyer A5 recto-verso</title>
+<!--
+  Flyer A5 (148 × 210 mm), recto-verso, 2 pages.
+  Zone de sécurité : 8 mm depuis le bord coupé (aucun texte ni QR au-delà).
+  Pour un imprimeur qui demande un fond perdu, exporter avec 3 mm de marge
+  supplémentaire : les fonds sont conçus pour déborder sans rien couper.
+  Export PDF : node marketing/outils/exporter-pdf.js
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../brand/tokens.css">
+<link rel="stylesheet" href="commun.css">
+<style>
+@page { size: 148mm 210mm; margin: 0; }
+.page { width: 148mm; height: 210mm; }
+.safe { position: absolute; inset: 8mm; z-index: 1; }
+
+/* ---------- RECTO ---------- */
+.r-top { display: flex; justify-content: space-between; align-items: center; }
+.r-top img { height: 10mm; display: block; }
+.r-zone { font-size: 2.6mm; font-weight: 600; color: var(--muted-dark); text-align: right; line-height: 1.35; }
+.r-zone strong { color: var(--white); font-weight: 700; display: block; }
+
+.r-eyebrow { margin-top: 13mm; font-size: 2.7mm; color: var(--yellow); }
+.r-title { margin-top: 3.4mm; font-size: 12.4mm; line-height: 1; }
+.r-title .hl { position: relative; white-space: nowrap; }
+.r-sub { margin-top: 5mm; font-size: 3.5mm; line-height: 1.45; color: #D5DAEA; max-width: 118mm; }
+.r-sub strong { color: var(--white); font-weight: 600; }
+
+.r-visual { position: absolute; left: 0; right: 0; top: 94mm; height: 62mm; }
+.mock {
+  position: absolute; left: 0; top: 0; width: 88mm; padding: 4.2mm 4.6mm 4.4mm;
+  color: var(--ink); transform: rotate(-2.5deg); transform-origin: left top;
+}
+.mock-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.6mm; }
+.mock-head b { font-family: var(--font-display); font-size: 3.6mm; letter-spacing: -.01em; }
+.chip { font-size: 2.1mm; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: .8mm 2mm; border-radius: 99px; }
+.chip-ex { background: var(--blue-soft); color: var(--blue-700); }
+.mock-meta { font-size: 2.3mm; color: var(--muted); margin-bottom: 2.4mm; }
+.mock-row { display: grid; grid-template-columns: 17mm 1fr; gap: 2mm; font-size: 2.5mm; line-height: 1.35; padding: 1.5mm 0; border-top: 1px solid var(--line); }
+.mock-row dt { font-weight: 700; color: var(--muted); }
+.mock-row dd { margin: 0; }
+.mock-row .ok { color: var(--mint-700); font-weight: 700; }
+.mock-skills { display: flex; gap: 1.4mm; flex-wrap: wrap; margin-top: 2mm; }
+.skill { font-size: 2.2mm; font-weight: 600; padding: .9mm 2mm; border-radius: 99px; background: #E3F8F1; color: var(--mint-700); }
+.skill.todo { background: var(--paper); color: var(--muted); border: 1px dashed #C7CCDD; }
+
+.price {
+  position: absolute; right: 0; top: 6mm; width: 46mm; height: 46mm; border-radius: 50%;
+  background: var(--yellow); color: var(--ink); display: grid; place-content: center; text-align: center;
+  transform: rotate(8deg); box-shadow: 0 6mm 12mm -4mm rgba(0,0,0,.45);
+}
+.price small { display: block; font-size: 2.4mm; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.price .big { font-family: var(--font-display); font-weight: 800; font-size: 15mm; line-height: .95; letter-spacing: -.04em; }
+.price .after { font-size: 2.45mm; font-weight: 600; line-height: 1.3; margin-top: 1mm; }
+.price s { opacity: .75; }
+
+.r-bottom {
+  position: absolute; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr 25mm; gap: 5mm; align-items: center;
+  background: var(--white); color: var(--ink); border-radius: var(--radius); padding: 4mm 4mm 4mm 5.5mm;
+}
+.r-bottom h2 { font-size: 5.4mm; line-height: 1.05; }
+.r-bottom p { font-size: 2.7mm; color: var(--muted); margin-top: 1.4mm; line-height: 1.4; }
+.r-bottom .r-tel { display: flex; align-items: center; gap: 2mm; margin-top: 2.4mm; font-family: var(--font-display); font-weight: 800; font-size: 5.6mm; letter-spacing: -.01em; color: var(--blue); }
+.r-tel svg { width: 5mm; height: 5mm; flex: none; }
+.r-bottom .qr { width: 25mm; height: 25mm; padding: 0; }
+
+/* ---------- VERSO ---------- */
+.v-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; }
+.v-head h2 { font-size: 7.6mm; line-height: 1.02; }
+.v-head h2 span { color: var(--blue); }
+.v-head img { height: 7mm; flex: none; margin-bottom: 1mm; }
+
+.v-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; margin-top: 5.5mm; }
+.v-card { padding: 4mm 4.2mm; }
+.v-card h3 { font-size: 3.9mm; line-height: 1.1; letter-spacing: -.015em; }
+.v-card p { font-size: 2.65mm; line-height: 1.45; color: var(--muted); margin-top: 1.6mm; }
+.v-ico { width: 8mm; height: 8mm; border-radius: 2.4mm; display: grid; place-items: center; margin-bottom: 2.4mm; }
+.v-ico svg { width: 4.6mm; height: 4.6mm; }
+.ico-blue { background: var(--blue); color: var(--white); }
+.ico-yellow { background: var(--yellow); color: var(--ink); }
+
+.checks { list-style: none; margin: 2mm 0 0; padding: 0; display: grid; gap: 1.3mm; }
+.checks li { display: grid; grid-template-columns: 3.6mm 1fr; gap: 1.6mm; font-size: 2.6mm; line-height: 1.35; }
+.checks li::before {
+  content: ""; width: 3.6mm; height: 3.6mm; border-radius: 50%; margin-top: .05mm;
+  background: var(--mint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230A0F1F' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8'/%3E%3C/svg%3E") center / 72% no-repeat;
+}
+
+.v-price-title { margin-top: 5.5mm; display: flex; align-items: baseline; justify-content: space-between; }
+.v-price-title h3 { font-size: 5mm; }
+.v-price-title span { font-size: 2.4mm; color: var(--muted); font-weight: 600; }
+.prices { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; margin-top: 2.6mm; }
+.p-card { padding: 3.6mm 4.2mm 3.8mm; position: relative; }
+.p-card.featured { background: var(--blue); color: var(--white); border-color: var(--blue); box-shadow: var(--shadow-lift); }
+.p-label { font-size: 2.3mm; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
+.p-amount { margin-top: 1.6mm; }
+.p-amount b { font-family: var(--font-display); font-size: 10.5mm; font-weight: 800; letter-spacing: -.04em; line-height: 1; }
+.p-amount span { display: block; font-size: 2.6mm; font-weight: 700; margin-top: 1mm; }
+.p-note { font-size: 2.45mm; margin-top: 1.6mm; line-height: 1.4; color: var(--muted); }
+.featured .p-note { color: #DCE4FF; }
+.featured .p-amount b { color: var(--yellow); }
+
+.v-ai { margin-top: 5.5mm; }
+.v-ai h3 { font-size: 5mm; }
+.v-ai > p { font-size: 2.65mm; color: var(--muted); margin-top: 1.2mm; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.4mm; margin-top: 2.8mm; counter-reset: s; list-style: none; padding: 0; }
+.steps li { counter-increment: s; background: var(--white); border: 1px solid var(--line); border-radius: 3.4mm; padding: 3mm 3mm 3.2mm; font-size: 2.45mm; line-height: 1.38; color: var(--muted); }
+.steps li::before {
+  content: counter(s); display: grid; place-items: center; width: 5.4mm; height: 5.4mm; border-radius: 50%;
+  background: var(--ink); color: var(--yellow); font-family: var(--font-display); font-weight: 800; font-size: 3mm; margin-bottom: 1.8mm;
+}
+.steps b { display: block; color: var(--ink); font-size: 2.75mm; margin-bottom: .6mm; }
+
+.v-foot {
+  position: absolute; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr auto; gap: 4mm; align-items: center;
+  background: var(--ink); color: var(--white); border-radius: var(--radius); padding: 3.6mm 4mm 3.6mm 5mm;
+}
+.v-foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .9mm; font-size: 2.45mm; color: var(--muted-dark); }
+.v-foot ul b { color: var(--white); font-weight: 600; }
+.v-foot .tel { font-family: var(--font-display); font-weight: 800; font-size: 5mm; color: var(--yellow); letter-spacing: -.01em; margin-bottom: 1.4mm; }
+.v-foot .qr { width: 19mm; height: 19mm; padding: 1.6mm; border-radius: 2.6mm; }
+</style>
+</head>
+<body>
+
+<!-- ===================== RECTO ===================== -->
+<section class="page bg-dark" aria-label="Recto">
+  <div class="safe">
+    <div class="r-top">
+      <img src="../../brand/logo-stud-plus-fond-sombre.svg" alt="Stud+">
+      <p class="r-zone"><strong>À domicile</strong>Paris et Île-de-France</p>
+    </div>
+
+    <span class="plus" style="--s:17mm; right:3mm; top:46mm"></span>
+    <span class="plus" style="--s:7mm; right:22mm; top:36mm; --c: var(--blue)"></span>
+    <p class="eyebrow r-eyebrow">Cours particuliers · Maths &amp; physique-chimie</p>
+    <h1 class="r-title">Les maths et la physique, enfin <span class="hl">sous contrôle.</span></h1>
+    <p class="r-sub">Du collège au lycée, jusqu’au brevet et au bac. <strong>Et un suivi en ligne qui montre aux parents chaque progrès, séance après séance.</strong></p>
+
+    <div class="r-visual">
+      <article class="card mock" aria-label="Exemple de compte rendu dans l’espace de suivi">
+        <div class="mock-head"><b>Compte rendu de séance</b><span class="chip chip-ex">Exemple</span></div>
+        <p class="mock-meta">Léa · 1<sup>re</sup> spécialité maths · séance de 2&nbsp;h</p>
+        <dl style="margin:0">
+          <div class="mock-row"><dt>Vu</dt><dd>Second degré&nbsp;: forme canonique et discriminant</dd></div>
+          <div class="mock-row"><dt>Point fort</dt><dd><span class="ok">Calcul de Δ rapide et juste</span></dd></div>
+          <div class="mock-row"><dt>À retravailler</dt><dd>Lire le signe de <i>a</i> sur la courbe</dd></div>
+          <div class="mock-row"><dt>Devoirs</dt><dd>Ex. 34 à 37 p.&nbsp;68, pour jeudi</dd></div>
+        </dl>
+        <div class="mock-skills">
+          <span class="skill">✓ Discriminant</span>
+          <span class="skill">✓ Forme canonique</span>
+          <span class="skill todo">Signe d’un trinôme</span>
+        </div>
+      </article>
+
+      <div class="price">
+        <small>La séance de 2&nbsp;h</small>
+        <span class="big">50&nbsp;€</span>
+        <span class="after">payés après<br>Avance Immédiate<br>au lieu de <s>100&nbsp;€</s></span>
+      </div>
+    </div>
+
+    <div class="r-bottom">
+      <div>
+        <h2>Parlons de votre enfant.</h2>
+        <p>Scannez pour m’écrire sur WhatsApp, ou appelez-moi.</p>
+        <p class="r-tel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+          07&nbsp;82&nbsp;92&nbsp;38&nbsp;89
+        </p>
+      </div>
+      <div class="qr"><img src="qr-whatsapp.svg" alt="QR code vers WhatsApp"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VERSO ===================== -->
+<section class="page bg-paper" aria-label="Verso">
+  <div class="safe">
+    <div class="v-head">
+      <h2>Un prof de sciences.<br><span>Un suivi que vous voyez.</span></h2>
+      <img src="../../brand/logo-stud-plus.svg" alt="Stud+">
+    </div>
+
+    <div class="v-grid">
+      <article class="card v-card">
+        <div class="v-ico ico-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/></svg></div>
+        <h3>Spécialiste des sciences</h3>
+        <p>Maths et physique-chimie, de la 6<sup>e</sup> à la terminale. Les deux matières se répondent&nbsp;: on les travaille ensemble, avec la même méthode.</p>
+        <p>Objectif brevet, bac, ou simplement reprendre confiance.</p>
+      </article>
+      <article class="card v-card">
+        <div class="v-ico ico-yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2.5"/><path d="M7 14l3-3 2.5 2L17 8.5M8 21h8"/></svg></div>
+        <h3>Votre espace de suivi en ligne</h3>
+        <ul class="checks">
+          <li>Les devoirs, avec leur date</li>
+          <li>Un compte rendu après chaque séance</li>
+          <li>Les compétences du programme, cochées une à une</li>
+          <li>Les objectifs du trimestre et l’évolution des notes</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="v-price-title">
+      <h3>Tarifs</h3>
+      <span>Séance de 2&nbsp;h, à domicile</span>
+    </div>
+    <div class="prices">
+      <article class="card p-card featured">
+        <p class="p-label">Cours individuel</p>
+        <p class="p-amount"><b>50&nbsp;€</b><span>payés par séance</span></p>
+        <p class="p-note">Au lieu de 100&nbsp;€&nbsp;: la moitié est prise en charge par l’Avance Immédiate.</p>
+      </article>
+      <article class="card p-card">
+        <p class="p-label">Fratrie · 2 enfants</p>
+        <p class="p-amount"><b class="blue">70&nbsp;€</b><span>payés par séance</span></p>
+        <p class="p-note">Au lieu de 140&nbsp;€, pour deux frères et sœurs pendant la même séance.</p>
+      </article>
+    </div>
+
+    <div class="v-ai">
+      <h3>L’Avance Immédiate, simplement</h3>
+      <p>Le crédit d’impôt de 50&nbsp;% est déduit tout de suite. Aucune avance de frais.</p>
+      <ol class="steps">
+        <li><b>Fin du mois</b>Je vous envoie la facture des séances faites.</li>
+        <li><b>Sous 48&nbsp;h</b>Vous validez l’e-mail de l’URSSAF. Sans réponse, c’est validé.</li>
+        <li><b>Vous payez 50&nbsp;%</b>L’URSSAF règle l’autre moitié. Rien à attendre des impôts.</li>
+      </ol>
+    </div>
+
+    <div class="v-foot">
+      <div>
+        <p class="tel">07&nbsp;82&nbsp;92&nbsp;38&nbsp;89</p>
+        <ul>
+          <li><b>Facturation mensuelle</b>, uniquement les séances faites.</li>
+          <li><b>Un empêchement&#8239;?</b> Prévenez 24&nbsp;h avant.</li>
+        </ul>
+      </div>
+      <div class="qr"><img src="qr-whatsapp.svg" alt="QR code vers WhatsApp"></div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

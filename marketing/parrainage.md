@@ -1,131 +1,121 @@
 # Programme de parrainage Stud+
 
-> Objectif : transformer les familles satisfaites en premier canal d'acquisition. En soutien scolaire, le bouche-à-oreille entre parents d'une même classe ou d'un même immeuble est le canal le plus fiable, et il coûte peu. Le parrainage sert à le déclencher au lieu de l'attendre.
+> **L'idée en une phrase** : les familles qui voient déjà les progrès de leur enfant dans l'espace de suivi sont les meilleures ambassadrices de Stud+ ; le parrainage leur donne une raison de parler de vous **cette semaine**, et non « un jour ».
 >
-> Support imprimé : `carte-parrainage.html` / `carte-parrainage.pdf` (format carte de visite 85 x 55 mm, recto verso).
+> **Objectifs** : 5 familles sur 5 informées avant le 22 novembre 2026 · 2 recommandations reçues avant le 30 novembre · 1 filleul arrivé à sa 4e séance avant le 20 décembre.
 
 ---
 
-## 1. L'offre en une phrase
+## 1. La mécanique
 
-**Vous recommandez Stud+ à une famille : quand elle a terminé son premier mois de cours, vous recevez chacun 1 heure de cours offerte.**
-
-## 2. La récompense proposée
-
-| Qui | Récompense | Quand |
+| | Ce qu'il reçoit | Quand |
 |---|---|---|
-| **Parrain** (famille déjà cliente) | 1 h de cours offerte, déduite de la facture mensuelle | Sur la facture du mois qui suit le premier mois réglé du filleul |
-| **Filleul** (nouvelle famille) | 1 h de cours offerte, déduite de la facture mensuelle | Sur sa 2e facture mensuelle, après un premier mois réglé |
+| **Le filleul** (la nouvelle famille) | Sa **1re heure de cours offerte** : la 1re séance de 2 h ne compte qu'une heure. | Dès la 1re séance. |
+| **Le parrain** (la famille qui recommande) | **Une séance de 2 h offerte.** | Quand le filleul a fait sa **4e séance**. |
 
-**Bonus fidélité (facultatif, à décider)** : au 3e parrainage validé dans l'année scolaire, le parrain reçoit une séance complète de 2 h offerte au lieu d'1 h.
+**Concrètement, sur la facture**
+- Filleul en individuel : 1re séance facturée **50 €** au lieu de 100 €, soit **25 € payés** après Avance Immédiate. Les séances suivantes : 100 €, 50 € payés.
+- Filleul en formule fratrie : 1re séance facturée **70 €** au lieu de 140 €, soit **35 € payés**.
+- Parrain : la séance offerte n'apparaît pas sur la facture du mois (elle n'est pas facturée, donc pas déclarée à l'URSSAF). Seules les heures payées sont déclarées en Avance Immédiate. ⚠️ À faire confirmer par l'expert-comptable lors du premier rendez-vous.
 
-### Pourquoi 1 h et pas une remise en euros ?
+**Pourquoi la 4e séance ?** Parce qu'une famille qui a fait 4 séances (un mois de cours hebdomadaires) est une famille installée. La récompense du parrain arrive au moment où le filleul est vraiment devenu client, et le coût d'une séance offerte est couvert plusieurs fois.
 
-- **C'est simple à comprendre** et ça parle aux parents : « une heure de cours en plus ».
-- **Le coût réel reste maîtrisé** : avec des séances de 2 h, l'heure offerte est déduite d'une séance (la famille paie une séance de 2 h au prix d'1 h ce mois-là). Pour Hamza, c'est 1 h de chiffre d'affaires en moins (50 € avant Avance Immédiate), pas 1 h de temps en plus à caser dans un planning déjà serré.
-- **Être transparent sur la valeur** : comme les familles ne paient que 50 % grâce à l'Avance Immédiate, une heure déduite leur fait économiser **25 €** réellement payés (50 € avant crédit d'impôt). Ne pas écrire « 50 € offerts » sur les supports : écrire « 1 h de cours offerte ».
+---
 
-### Comment l'appliquer sur la facture (point à valider)
+## 2. Les règles (et ce qu'elles empêchent)
 
-- L'heure offerte **n'est pas facturée** : la facture du mois comporte 1 h de moins (ou une ligne « 1 h offerte – parrainage » à 0 €).
-- Seules les heures réellement facturées et payées sont déclarées dans l'Avance Immédiate. On ne déclare pas d'heure gratuite à l'URSSAF (aucun crédit d'impôt sur une prestation non payée).
-- **À vérifier une fois** auprès de l'URSSAF (espace « Avance Immédiate services à la personne ») ou d'un comptable, pour être sûr de la bonne façon de le saisir.
+À afficher au dos de la carte de parrainage et à rappeler en cas de doute.
 
-## 3. Règles du programme
+1. **Le filleul est une nouvelle famille** : elle n'a jamais pris de cours avec Stud+. → *Empêche* : qu'une ancienne famille revienne « parrainée » pour obtenir l'heure offerte.
+2. **Le filleul appartient à un autre foyer que le parrain.** Un frère ou une sœur du même foyer passe par la formule fratrie, pas par le parrainage. → *Empêche* : de parrainer son propre enfant.
+3. **Le nom du parrain est donné dès le premier message** du filleul. Il est noté immédiatement dans Notion. → *Empêche* : les parrainages déclarés après coup et les litiges entre deux familles qui revendiquent le même filleul (règle : le premier nom donné l'emporte).
+4. **Le parrain est une famille active** (au moins une séance dans les 30 derniers jours) ou une famille ancienne qui a été cliente pendant au moins un trimestre. → *Empêche* : les « parrains » qui n'ont jamais été clients.
+5. **La séance du parrain est due quand la 4e séance du filleul a eu lieu**, et non à la réservation. Une séance annulée ne compte pas.
+6. **La séance offerte se prend dans l'année scolaire en cours** (jusqu'au 30 juin 2027 pour les parrainages de 2026-2027), sur un créneau habituel. Elle n'est ni remboursable, ni convertible en argent, ni cessible.
+7. **Pas de plafond** : 3 filleuls arrivés à leur 4e séance = 3 séances offertes. Un parrain qui vous amène 3 familles vous a rapporté bien plus que 3 séances.
+8. **Parrainage et avis Google sont séparés** : on ne conditionne jamais une récompense à un avis (règle de Google).
+9. **Stud+ peut refuser un parrainage** en cas de fraude manifeste (faux foyer, doublon). Dites-le en une phrase, poliment, sans procès d'intention.
 
-1. **Qui peut parrainer** : toute famille ayant au moins un enfant suivi par Stud+ et à jour de ses factures.
-2. **Qui peut être filleul** : une famille qui n'a **jamais** pris de cours avec Stud+ et qui n'a pas déjà contacté Hamza dans les 6 derniers mois.
-3. **Comment ça se déclenche** : la nouvelle famille donne le nom du parrain **au premier contact** (appel, WhatsApp, e-mail ou carte remise). Le nom ne peut pas être ajouté après coup.
-4. **Validation** : le parrainage est validé quand le filleul a **réglé son premier mois de cours, avec au moins 4 h (2 séances)**.
-5. **Utilisation** : l'heure offerte est utilisable pendant **6 mois**, sur n'importe quel enfant du foyer.
-6. **Cumul** : un parrain peut parrainer plusieurs familles ; chaque parrainage validé donne 1 h. Plafond conseillé : **5 heures offertes par année scolaire et par parrain**.
-7. **Non échangeable** : l'heure offerte n'est ni remboursable, ni convertible en argent, ni cessible à une autre famille.
-8. **Durée du programme** : de novembre 2026 à fin juin 2027 (année scolaire 2026-2027), reconductible. Stud+ peut modifier ou arrêter le programme à tout moment, sans effet sur les parrainages déjà validés.
+---
 
-## 4. Conditions anti-abus
+## 3. Le suivi dans Notion (15 min à créer, 2 min par parrainage)
 
-| Risque | Règle qui le bloque |
-|---|---|
-| Une famille se parraine elle-même ou parraine le 2e enfant de la même fratrie | Le filleul doit être un **foyer différent** (autre adresse et autre foyer fiscal). Un frère ou une sœur ajouté(e) relève du tarif fratrie, pas du parrainage. |
-| Un ancien client revient « parrainé » pour obtenir l'heure | Le filleul ne doit **jamais** avoir été client de Stud+. |
-| Une famille prend une seule séance pour déclencher les deux heures | Validation seulement après **un premier mois réglé, 4 h minimum**. |
-| Parrain ajouté après coup par arrangement entre familles | Le nom du parrain doit être donné **au premier contact**. |
-| Accumulation d'heures gratuites | Plafond de 5 h par an et par parrain, validité de 6 mois. |
-| Impayé du parrain | Le parrain doit être **à jour de ses factures** au moment de la validation. |
-| Faux comptes / fausses familles | Hamza garde un registre (voir ci-dessous) et peut refuser un parrainage en cas de doute, en l'expliquant poliment. |
+Créez une base **« Parrainages »** reliée à votre base **« Familles »** (ou « Élèves »).
 
-## 5. Registre de suivi (à tenir dans un tableur ou dans l'appli Stud+)
+| Propriété | Type | Contenu |
+|---|---|---|
+| Filleul | Titre | Nom de la nouvelle famille |
+| Parrain | Relation → Familles | La famille qui recommande |
+| Date du 1er contact | Date | Jour du premier message du filleul |
+| Canal | Sélection | WhatsApp, SMS, appel, carte remise en main propre |
+| Statut | Statut | `Recommandé` → `1er contact` → `1re séance faite` → `4e séance faite` → `Séance du parrain planifiée` → `Séance du parrain faite` · ou `Perdu` |
+| Séances du filleul | Nombre (ou rollup depuis l'agenda) | Mis à jour après chaque séance |
+| 1re heure offerte appliquée | Case à cocher | Cochée quand la facture du mois l'a bien prise en compte |
+| Récompense due | Formule | `prop("Séances du filleul") >= 4` |
+| Date de la séance offerte | Date | Créneau planifié avec le parrain |
+| Notes | Texte | Ce qui a déclenché la recommandation (camarade de classe, voisin…) |
 
-| Date du 1er contact | Famille filleule | Parrain déclaré | 1er mois réglé le | Nb d'heures du 1er mois | Validé ? | Heure parrain déduite sur facture de | Heure filleul déduite sur facture de |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+**Trois vues à créer**
+- **À traiter** : statut `Recommandé` ou `1er contact` → à rappeler dans les 24 h.
+- **Récompenses à donner** : `Récompense due` cochée et statut différent de `Séance du parrain faite`.
+- **Tableau de bord** : regroupé par parrain, pour voir vos meilleurs ambassadeurs.
 
-## 6. Comment lancer le programme (pas à pas)
+**Routine du dimanche (2 min)** : mettre à jour le nombre de séances des filleuls ; si un filleul vient de faire sa 4e séance, envoyer le message de remerciement (§ 5) le lundi.
 
-1. **Semaine du 9 novembre** : imprimer 50 à 100 cartes de parrainage (`carte-parrainage.pdf`, imprimeur en ligne « carte de visite 85 x 55 mm recto verso », ou impression maison sur papier épais).
-2. Envoyer le **message de lancement** (ci-dessous) à toutes les familles actuelles, individuellement (pas en groupe WhatsApp : les familles ne se connaissent pas forcément, et leurs numéros doivent rester privés).
-3. À la séance suivante, **remettre 3 cartes en main propre** à chaque famille, avec le nom du parrain déjà écrit au recto.
-4. Ajouter une ligne sur le parrainage dans chaque **bilan trimestriel** (voir `messages-familles.md`).
-5. Quand un parrainage est validé, **prévenir les deux familles** (message ci-dessous) : c'est ce qui donne envie de recommencer.
+---
 
-## 7. Messages prêts à envoyer
+## 4. Le lancement (semaine du 16 novembre 2026)
 
-### 7.1 Lancement (WhatsApp / SMS, aux familles actuelles)
+**Matériel** : les cartes de parrainage (`marketing/carte-parrainage.pdf`, 3 cartes par famille), le message du § 4 bis, la base Notion prête.
 
-> Bonjour [Prénom du parent], c'est Hamza de Stud+.
+**Le déroulé, famille par famille**
+1. **En fin de séance**, 1 minute, de vive voix au parent présent : « Je lance un parrainage : si vous me recommandez à une famille, elle a sa 1re heure offerte, et vous une séance de 2 h quand elle a fait 4 séances. Je vous laisse 3 cartes. »
+2. **Le soir même**, le message WhatsApp ci-dessous, puis le message transférable.
+3. **Dans Notion**, cochez « Parrainage annoncé » sur la fiche de la famille.
+
+### 4 bis. Message de lancement
+
+> Bonjour [Prénom], c'est Hamza. Merci encore pour la séance de ce soir, [Prénom de l'élève] a bien avancé sur [chapitre] 💪
 >
-> Je lance un programme de parrainage : si vous connaissez une famille qui cherche un prof de maths ou de physique-chimie pour un collégien ou un lycéen, vous pouvez lui donner mon numéro (07 82 92 38 89).
+> Comme je vous le disais, je lance le parrainage Stud+ 🎁 Si une famille de votre entourage cherche un prof de maths ou de physique-chimie, du collège au lycée :
+> ➡️ elle a sa **1re heure de cours offerte** ;
+> ➡️ vous recevez **une séance de 2 h offerte** dès qu'elle a fait sa 4e séance.
 >
-> Quand elle aura fait son premier mois de cours, **vous recevrez 1 h de cours offerte, et elle aussi**. Elle doit simplement donner votre nom dès son premier message.
->
-> Je vous donnerai quelques cartes à distribuer à la prochaine séance de [Prénom de l'élève]. Merci beaucoup pour votre confiance !
+> Il suffit qu'elle me contacte au 07 82 92 38 89 en donnant votre nom. Je vous envoie juste en dessous un petit message tout prêt à transférer.
 
-### 7.2 Lancement (e-mail, version plus complète)
+### Message à transférer (envoyé juste après)
 
-**Objet : 1 h de cours offerte pour vous (et pour une famille que vous connaissez)**
+> Je te transfère le contact de Hamza, le prof de maths et physique-chimie de [Prénom]. Il vient à domicile, séances de 2 h, du collège au lycée. Après chaque séance, on reçoit un compte rendu en ligne avec les devoirs et les compétences travaillées. Avec l'Avance Immédiate, la séance revient à 50 € au lieu de 100 €. Si tu le contactes de ma part, ta 1re heure est offerte : 07 82 92 38 89 ou https://wa.me/33782923889
 
-> Bonjour [Madame / Monsieur Nom],
->
-> Merci pour votre confiance depuis le début des cours de [Prénom de l'élève].
->
-> Stud+ grandit surtout grâce au bouche-à-oreille. Je lance donc un programme de parrainage simple :
->
-> - vous recommandez Stud+ à une famille qui cherche des cours de **maths ou de physique-chimie** (collège ou lycée) ;
-> - elle me contacte en donnant votre nom (07 82 92 38 89, par appel ou WhatsApp) ;
-> - quand elle a réglé son premier mois de cours, **vous recevez chacun 1 h de cours offerte**, déduite de la facture.
->
-> La nouvelle famille profite comme vous de l'Avance Immédiate (50 € payés pour une séance de 2 h) et de l'espace de suivi en ligne.
->
-> Je vous remettrai des cartes de parrainage à la prochaine séance. Le règlement complet est disponible sur simple demande.
->
-> Bien cordialement,
-> Hamza – Stud+
-> 07 82 92 38 89 · [[EMAIL]]
+---
 
-### 7.3 Message que le parrain peut transférer tel quel à une autre famille
+## 5. Les messages du parcours
 
-> Bonjour, je te transmets le contact de Hamza, qui donne des cours de maths et de physique-chimie à [Prénom de l'enfant]. Il vient à domicile [à confirmer avec Hamza], il fait des séances de 2 h et on a un espace en ligne où on voit le compte rendu de chaque séance et les compétences acquises. Avec l'Avance Immédiate, ça revient à 50 € la séance de 2 h. Si tu le contactes de ma part ([Nom]), on a chacun 1 h offerte : 07 82 92 38 89 (WhatsApp : https://wa.me/33782923889).
+**Le filleul vient de vous contacter → au parrain, le jour même**
+> Bonjour [Prénom], [nom du filleul] vient de me contacter de votre part : merci beaucoup pour votre confiance ! Je vous tiens au courant dès que vos 2 h offertes sont débloquées.
 
-### 7.4 Confirmation au parrain (parrainage validé)
+**Le filleul a fait sa 4e séance → au parrain, le lendemain**
+> Bonne nouvelle, [Prénom] 🎉 [Nom du filleul] a fait sa 4e séance : votre séance de 2 h offerte est débloquée. Je vous propose de la placer [à la place de la séance du jeudi 10 décembre / en plus, pendant les vacances]. Ça vous va ? Et merci encore : c'est grâce à des recommandations comme la vôtre que Stud+ grandit.
 
-> Bonjour [Prénom], bonne nouvelle : la famille [Nom] que vous m'avez recommandée a terminé son premier mois de cours. **Votre heure offerte sera déduite de votre prochaine facture.** Merci beaucoup, c'est grâce à des parents comme vous que Stud+ grandit !
+**Au filleul, avant la 1re séance**
+> Bonjour [Prénom], c'est confirmé pour [jour, heure] ! Comme vous venez de la part de [nom du parrain], votre 1re heure est offerte : la 1re séance de 2 h ne vous sera facturée qu'une heure. À [jour] !
 
-### 7.5 Confirmation au filleul
+---
 
-> Bonjour [Prénom], merci pour ce premier mois avec Stud+ ! Comme vous êtes venu(e) de la part de la famille [Nom du parrain], **1 h de cours offerte sera déduite de votre prochaine facture.** Et si à votre tour vous connaissez une famille intéressée, le même programme s'applique.
+## 6. Les relances
 
-### 7.6 Refus poli (conditions non remplies)
+Le parrainage ne vit que si on en reparle au bon moment. Trois relances par trimestre, pas plus.
 
-> Bonjour [Prénom], merci beaucoup d'avoir pensé à recommander Stud+ ! Malheureusement, ce parrainage ne peut pas être validé car [la famille avait déjà pris des cours avec moi / il s'agit du même foyer / le nom du parrain n'avait pas été donné au premier contact]. Je reste très reconnaissant pour la recommandation, et le programme reste ouvert pour toute autre famille.
+**Relance 1 – 15 jours après le lancement (vers le 1er décembre), aux familles qui n'ont encore recommandé personne**
+> Bonjour [Prénom], petite idée pour les vacances : si des parents de la classe de [Prénom de l'élève] cherchent à préparer [le brevet blanc / le bac blanc], le Pack Noël et le parrainage se cumulent : leur 1re heure est offerte. Vous avez encore des cartes ? Je vous en rapporte si besoin.
 
-## 8. Règlement court (à envoyer sur simple demande)
+**Relance 2 – après un bon résultat** (bonne note, compte rendu très positif)
+> Bravo encore à [Prénom] pour [son 15 en physique] ! Si d'autres parents vous demandent comment [il / elle] a progressé, n'hésitez pas à leur donner mon numéro : la 1re heure leur est offerte, et une séance vous est offerte quand ils ont fait 4 séances.
 
-> **Programme de parrainage Stud+ – année scolaire 2026-2027**
-> 1. Le parrain est une famille cliente de Stud+, à jour de ses factures.
-> 2. Le filleul est un foyer différent, qui n'a jamais été client de Stud+ et ne l'a pas contacté dans les 6 mois précédents.
-> 3. Le nom du parrain doit être indiqué au premier contact du filleul.
-> 4. Le parrainage est validé après le premier mois de cours réglé par le filleul, avec au moins 4 heures de cours.
-> 5. Le parrain et le filleul reçoivent chacun 1 heure de cours offerte, déduite d'une facture mensuelle, utilisable dans les 6 mois.
-> 6. Plafond : 5 heures offertes par parrain et par année scolaire.
-> 7. Les heures offertes ne sont ni remboursables, ni échangeables contre de l'argent, ni cessibles.
-> 8. Stud+ peut modifier ou arrêter le programme à tout moment ; les parrainages déjà validés restent acquis.
+**Relance 3 – rentrée de janvier (semaine du 4 janvier 2027)**
+> Bonne année [Prénom] ! Le 2e trimestre commence, et c'est souvent maintenant que les familles cherchent un prof, juste après le conseil de classe. Le parrainage continue : 1re heure offerte pour la famille que vous recommandez, 1 séance de 2 h offerte pour vous dès sa 4e séance.
+
+**Bonnes pratiques**
+- Remerciez **chaque** recommandation, même si elle n'aboutit pas : c'est le geste qui déclenche la suivante.
+- Donnez la séance offerte vite (dans les 3 semaines qui suivent la 4e séance du filleul).
+- Ne relancez jamais une famille qui traverse une période difficile (note décevante, conflit avec l'élève) : attendez le prochain bon moment.

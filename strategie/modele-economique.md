@@ -51,57 +51,62 @@
 - **En nombre d'élèves** : 12 séances = 12 élèves en individuel, ou **15 élèves avec 3 fratries** (une séance de fratrie compte pour 2 élèves). Avec 2 créneaux tardifs en **visio** (sans trajet), la capacité peut monter à **16-18 élèves** (voir scénario B).
 - **Contrainte n° 1 en Île-de-France : le trajet.** À 45 min par séance, il représente environ 25 % du temps de travail. Regrouper les familles dans 2 ou 3 secteurs (par exemple un arrondissement et la commune voisine) est la condition pour tenir 12 séances. À 1 h de trajet par séance, la capacité réaliste tombe à environ 10 séances.
 
-## 3. Scénario A — Solo optimisé (le scénario principal recommandé)
+## 3. Scénario A — Solo optimisé (scénario principal recommandé)
 
-**Principe** : tarifs inchangés, cours à domicile (éligibles au crédit d'impôt), acquisition active, regroupement géographique, fratries, stages individuels à domicile pendant les vacances (eux aussi éligibles, car ce sont des cours individuels à domicile). Montée de 5 à 10 élèves en 90 jours, puis jusqu'à 15 élèves (capacité réaliste) au printemps 2027.
+**Principe** : tarifs inchangés ; uniquement des cours à domicile, éligibles au crédit d'impôt ; acquisition selon `acquisition-et-zone.md` (environ 2,4 nouveaux élèves par mois) ; regroupement en 2 secteurs ; fratries ; **heures en plus pendant les périodes clés** (sprints avant les bacs et brevets blancs, stages individuels de vacances, Objectif bac, épreuve anticipée de maths et brevet, voir `offres-et-tarifs.md`).
 
-| Mois | Séances indiv./sem. | Séances fratrie/sem. | Élèves | Heures de cours du mois | CA du mois | CA cumulé de l'année civile |
-|---|---|---|---|---|---|---|
-| nov. 26 | 4,5 | 0 | 4-5 | 29,7 | 1 485 € | — |
-| déc. 26 (+ stage de Noël 12 h) | 6 | 0 | 6 | 44,4 | 2 220 € | 2026 : ≈ 3 700 € sur nov.-déc. |
-| janv. 27 | 7 | 1 | 9 | 64 | 3 360 € | 3 360 € |
-| févr. 27 (+ stage 16 h) | 8 | 2 | **12** | 56 | 2 960 € | 6 320 € |
-| mars 27 | 8 | 3 | 14 | 96,8 | 5 368 € | 11 688 € |
-| avr. 27 (+ stage 20 h) | 9 | 3 | **15** | 70,4 | 3 772 € | 15 460 € |
-| mai 27 | 9 | 3 | 15 | 91,2 | 5 016 € | 20 476 € |
-| juin 27 | 9 | 3 | 15 | 96 | 5 280 € | 25 756 € |
-| juil. 27 (stage 20 h) | 0 | 0 | — | 20 | 1 000 € | 26 756 € |
-| août 27 | 0 | 0 | — | 0 | 0 € | 26 756 € |
-| sept. 27 (départ des terminales) | 8 | 2 | 12 | 80 | 4 320 € | 31 076 € |
-| oct. 27 (+ stage 20 h) | 9 | 3 | 15 | 94,4 | 5 092 € | 36 168 € |
-| nov. 27 | 9 | 3 | 15 | 88,8 | 4 884 € | **41 052 €** |
-| déc. 27 (+ stage 16 h) | 9 | 3 | 15 | 80,8 | 4 364 € | **45 416 €** |
+### Projection mois par mois, de novembre 2026 à décembre 2027 (saisonnalité de la zone C)
 
-Exemple de calcul (mars 2027) : 4,4 semaines × (8 × 100 € + 3 × 140 €) = 4,4 × 1 220 = 5 368 €.
+| Mois | Semaines de cours | Séances indiv./sem. | Séances fratrie/sem. | Élèves | Heures de suivi | Heures en plus (offre) | Total des heures | **CA du mois** | Cotisations (25,8 %) | Après cotisations | CA cumulé de l'année civile |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| nov. 26 (dès le 9) | 3,3 | 4,5 | 0 | 4-5 | 29,7 | 0 | 29,7 | **1 485 €** | 383 € | 1 102 € | — |
+| déc. 26 | 2,7 | 6 | 0 | 6 | 32,4 | 12 (stage de Noël) | 44,4 | **2 220 €** | 573 € | 1 647 € | 2026 (nov.-déc.) : 3 705 € |
+| janv. 27 | 4 | 7 | 1 | 9 | 64 | 12 (sprints bac et brevet blancs) | 76 | **3 960 €** | 1 022 € | 2 938 € | 3 960 € |
+| févr. 27 | 2 (vacances du 6 au 22) | 8 | 1 | **10** | 36 | 20 (2 stages) | 56 | **2 880 €** | 743 € | 2 137 € | 6 840 € |
+| mars 27 | 4,4 | 7 | 2 | 11 | 79,2 | 8 (début de l'épreuve anticipée) | 87,2 | **4 712 €** | 1 216 € | 3 496 € | 11 552 € |
+| avr. 27 | 2,1 (vacances du 3 au 19) | 8 | 2 | 12 | 42 | 30 (3 stages) | 72 | **3 768 €** | 972 € | 2 796 € | 15 320 € |
+| mai 27 | 3,8 (ponts) | 8 | 2 | 12 | 76 | 24 (Objectif bac, épreuve anticipée, brevet) | 100 | **5 304 €** | 1 368 € | 3 936 € | 20 624 € |
+| juin 27 | 4 | 8 | 2 | 12 | 80 | 40 (pic avant les épreuves des 14-21 juin et le brevet) | 120 | **6 320 €** (mois record) | 1 631 € | 4 689 € | 26 944 € |
+| juil. 27 | 0,5 | — | — | — | 0 | 10 (rattrapage, 1 stage) | 10 | **500 €** | 129 € | 371 € | 27 444 € |
+| août 27 | 0 | — | — | — | 0 | 10 (stage de pré-rentrée du 23 au 27 août) | 10 | **500 €** | 129 € | 371 € | 27 944 € |
+| sept. 27 (départ des terminales) | 4 | 7 | 2 | 11 | 72 | 0 | 72 | **3 920 €** | 1 011 € | 2 909 € | 31 864 € |
+| oct. 27 | 3,1 | 8 | 3 | 14 | 68,2 | 20 (stages de Toussaint) | 88,2 | **4 782 €** | 1 234 € | 3 548 € | 36 646 € |
+| nov. 27 | 3,7 | 8 | 3 | 14 | 81,4 | 6 | 87,4 | **4 814 €** | 1 242 € | 3 572 € | **41 460 €** |
+| déc. 27 | 2,7 | 8 | 3 | 14 | 59,4 | 16 (stage de Noël) | 75,4 | **4 094 €** | 1 056 € | 3 038 € | **45 554 €** |
+
+Formule : CA = semaines × (séances indiv. × 100 € + séances fratrie × 140 €) + heures en plus × 50 €. Exemple (juin 2027) : 4 × (8 × 100 + 2 × 140) + 40 × 50 = 4 320 + 2 000 = 6 320 €. Élèves = séances indiv. + 2 × séances fratrie.
+
+Lecture de la saisonnalité : **février et avril** ont deux fois moins de semaines de cours, et les stages compensent en partie. **Juin** est le mois record (épreuves des 14 au 21 juin 2027). **Juillet et août** sont presque vides : il faut **mettre de côté environ 1 500 € entre avril et juin** pour lisser l'été. **Septembre** baisse avec le départ des terminales : il faut avoir recruté des élèves de seconde et de première dès le printemps.
 
 **Synthèse A**
 
 | Indicateur | Valeur |
 |---|---|
-| CA d'un mois plein à capacité (4,33 sem. × 1 320 €) | **5 716 €** (contre 1 732-2 165 € aujourd'hui) |
-| CA sur 12 mois glissants (déc. 26 → nov. 27) | **43 272 €**, soit 3 606 €/mois en moyenne |
-| CA de l'année civile 2027 | **45 416 €** (838 h de cours) |
-| Cotisations 2027 (25,8 %) | 11 717 € |
-| Après cotisations | 33 699 € |
+| CA d'un mois plein à capacité (4,33 sem. × (8 × 100 + 3 × 140) = 4,33 × 1 220 €) | **5 283 €**, plus les heures en plus (jusqu'à 6 320 € en juin) |
+| CA de l'année civile 2027 | **45 554 €** (854 h facturées) |
+| Moyenne mensuelle 2027 | 3 796 € (contre 1 143-1 429 € de moyenne aujourd'hui) |
+| Cotisations 2027 | 11 753 € |
+| Après cotisations | 33 801 € |
 | Frais (hypothèse) | 3 000 € |
-| **Revenu avant impôt sur le revenu** | **≈ 30 700 €/an** (≈ 2 560 €/mois) |
-| Heures de Hamza à capacité | ≈ 38 h/sem. (24 h de cours, 9 h de trajet, 5 h d'administration) |
-| Revenu par heure réellement travaillée | 1 320 € ÷ 38 h ≈ **35 €/h** (avant cotisations) |
+| **Revenu avant impôt sur le revenu** | **≈ 30 800 €/an** (≈ 2 570 €/mois) |
+| Heures de Hamza en période pleine | ≈ 34-38 h/sem. (22-24 h de cours, 8-9 h de trajet, 5 h d'administration) ; jusqu'à 45 h pendant les 3 semaines de juin |
+| Revenu par heure travaillée | ≈ 33-35 €/h, avant cotisations |
 
 **Seuils dans le scénario A**
 
 | Seuil | Atteint ? | Quand |
 |---|---|---|
-| Franchise TVA, 37 500 € (CA de l'année) | Oui en 2027 | **Courant novembre 2027** (cumul de 36 168 € fin octobre, puis 41 052 € fin novembre). Si l'exonération 261-4-4° b est refusée, la franchise est perdue pour 2028. |
-| Franchise TVA majorée, 41 250 € | Oui | **Début décembre 2027**. TVA due dès ce jour-là si les cours ne sont pas exonérés. |
-| Plafond micro, 83 600 € | **Non**. Inaccessible en solo (le maximum théorique est d'environ 28 h × 34 sem. × 55 € ≈ 52 000 €). | — |
-| Garantie financière Avance immédiate (200 000 €) | Non | — (à condition de ne prendre **aucun acompte**) |
+| Franchise TVA, 37 500 € | Oui en 2027 | **Début novembre 2027** (36 646 € fin octobre). Si l'exonération 261-4-4° b est refusée, la franchise est perdue pour 2028. |
+| Franchise TVA majorée, 41 250 € | Oui | **Fin novembre 2027** (41 460 € au 30 novembre). TVA due dès ce jour-là si les cours ne sont pas exonérés. |
+| Plafond micro, 83 600 € | **Non**. Inaccessible en solo (maximum théorique ≈ 28 h × 34 sem. × 55 € ≈ 52 000 €, plus les stages) | — |
+| Garantie financière de l'Avance immédiate (200 000 €) | Non | — (à condition de ne prendre **aucun acompte**) |
+| Plafond familial de crédit d'impôt (12 000 à 15 000 € de dépenses) | Non, sauf pour une famille qui a d'autres services à domicile | À demander à la signature |
 
-> **Point d'attention** : si l'expert-comptable confirme l'exonération de TVA des cours donnés personnellement, le scénario A ne déclenche aucun seuil. Sinon, à partir de décembre 2027, il faudrait facturer 10 % de TVA. À prix inchangé (50 € TTC), Hamza garderait 45,45 € HT, soit une perte d'environ 9 % du CA. **Il faut faire trancher cette question avant septembre 2027.**
+> **Point d'attention** : si l'expert-comptable confirme l'exonération de TVA des cours donnés personnellement par Hamza, le scénario A ne déclenche aucun seuil. Sinon, il faudrait facturer 10 % de TVA à partir de fin novembre 2027. À prix inchangé (50 € TTC), Hamza garderait 45,45 € HT, soit environ 9 % de CA en moins. **Il faut trancher ce point avant le 30 septembre 2027.**
 
 ## 4. Scénario B — Solo + petits groupes + stages + visio
 
-**Principe** : même plafond de 12 créneaux, mais certains créneaux sont mieux valorisés :
+**Principe** : variante du scénario A **sans** les heures en plus liées aux examens ; certains des 12 créneaux sont mieux valorisés :
 - **1 petit groupe hebdomadaire** (samedi, 4 élèves × 2 h × 25 €/h/élève = 200 € la séance, au lieu de 100 €) à partir de mars 2027 ;
 - **2 créneaux de visio de 1 h 30 par semaine** à 40 €/h (le soir tard, sans trajet), à partir de février ;
 - **stages collectifs** pendant les vacances (4 élèves × 10 h × 25 € = 1 000 € par stage) : février, 2 en avril, juillet, octobre, décembre ;
@@ -145,7 +150,7 @@ Exemple (mars 2027) : SAP = 4,4 × (6 × 100 + 3 × 140) = 4 488 € ; visio = 4
 
 **Ce n'est pas le plan actuel** : Hamza veut rester seul. Ce scénario sert à préparer la décision. Il ne démarre que si le déclencheur de `recrutement-profs.md` est atteint (hypothèse : rentrée de septembre 2027).
 
-**Hypothèses** : Hamza garde son agenda plein du scénario A (1 320 €/sem.). Les profs, sous-traitants auto-entrepreneurs, font 8 h par semaine chacun. Il y a 2 profs en septembre 2027 et jusqu'à 5 en mars 2028. Prix moyen de 54 €/h (80 % en individuel à 50 €, 20 % en fratrie à 70 €). Les profs sont payés en moyenne 27 €/h (25 € en individuel, 35 € en fratrie).
+**Hypothèses** : Hamza garde un agenda plein (9 séances individuelles et 3 fratries, soit 1 320 €/sem.). Les profs, sous-traitants auto-entrepreneurs, font 8 h par semaine chacun. Il y a 2 profs en septembre 2027 et jusqu'à 5 en mars 2028. Prix moyen de 54 €/h (80 % en individuel à 50 €, 20 % en fratrie à 70 €). Les profs sont payés en moyenne 27 €/h (25 € en individuel, 35 € en fratrie).
 
 | Mois (année scolaire 27-28) | Profs | Heures des profs | CA Hamza | CA profs | CA total | Cumul |
 |---|---|---|---|---|---|---|
@@ -161,7 +166,7 @@ Exemple (mars 2027) : SAP = 4,4 × (6 × 100 + 3 × 140) = 4 488 € ; visio = 4
 | juin 28 | 5 | 160 | 5 280 € | 8 640 € | 13 920 € | 100 301 € |
 | juil.-août 28 | 1 | 4 | 660 € | 216 € | 876 € | 101 177 € |
 
-**Résultat en micro-entreprise (sur 12 mois, sans TVA)** : CA 101 177 € − cotisations 26 104 € (25,8 % **sur tout le CA, y compris la part reversée aux profs**) − profs 27 972 € (1 036 h × 27 €) − frais 8 000 € = **≈ 39 100 €**. C'est seulement environ 8 400 € de plus que le scénario A, pour beaucoup plus de risques et environ 45 h de travail par semaine (encadrement : 1,5 h par prof et par semaine).
+**Résultat en micro-entreprise (sur 12 mois, sans TVA)** : CA 101 177 € − cotisations 26 104 € (25,8 % **sur tout le CA, y compris la part reversée aux profs**) − profs 27 972 € (1 036 h × 27 €) − frais 8 000 € = **≈ 39 100 €**. C'est seulement environ 8 300 € de plus que le scénario A, pour beaucoup plus de risques et environ 45 h de travail par semaine (encadrement : 1,5 h par prof et par semaine).
 
 Et l'**impôt sur le revenu** pénalise fortement : en micro BNC, la base imposable est de 66 % du CA, soit **66 777 €**, alors que le revenu réel est d'environ 39 100 €.
 
@@ -206,13 +211,13 @@ Notes de calcul :
 
 | | Actuel | **A — Solo optimisé** | B — Solo + groupes/visio/stages | C — Phase 2 (micro, 5 profs) |
 |---|---|---|---|---|
-| Élèves | 4-5 | 15 | ≈ 18 | 15 + environ 20-25 suivis par les profs (5 × 8 h = 20 séances de 2 h) |
-| CA d'un mois plein | 1 732-2 165 € | 5 716 € | ≈ 5 800 € | ≈ 15 000 € |
-| CA annuel | 13 720-17 150 € | 45 416 € (2027) | 54 792 € (2027) | 101 177 € (2027-28) |
-| Cotisations | 3 540-4 425 € | 11 717 € | 14 136 € | 26 104 € |
-| Revenu avant IR (après frais) | ≈ 10 000-12 000 € | ≈ 30 700 € | ≈ 36 150 € | ≈ 39 100 € (avec un IR défavorable) |
+| Élèves | 4-5 | 14 | ≈ 18 | 15 + environ 20-25 suivis par les profs (5 × 8 h = 20 séances de 2 h) |
+| CA d'un mois plein | 1 732-2 165 € | 5 283 € (6 320 € en juin) | ≈ 5 800 € | ≈ 15 000 € |
+| CA annuel | 13 720-17 150 € | 45 554 € (2027) | 54 792 € (2027) | 101 177 € (2027-28) |
+| Cotisations | 3 540-4 425 € | 11 753 € | 14 136 € | 26 104 € |
+| Revenu avant IR (après frais) | ≈ 10 000-12 000 € | ≈ 30 800 € | ≈ 36 150 € | ≈ 39 100 € (avec un IR défavorable) |
 | Heures/sem. de Hamza | ≈ 15 | ≈ 38 | ≈ 37 | ≈ 45 |
-| Seuils TVA (si pas d'exonération) | — | nov.-déc. 2027 | oct. 2027 | oct. 2027 (TVA sur la part des profs dans tous les cas) |
+| Seuils TVA (si pas d'exonération) | — | nov. 2027 | oct. 2027 | oct. 2027 (TVA sur la part des profs dans tous les cas) |
 | Plafond micro | — | non | non | oct. 2028 |
 | Risque principal | sous-activité | fatigue, trajets | ratio de 30 % non-SAP, organisation | requalification, TVA, IR |
 
